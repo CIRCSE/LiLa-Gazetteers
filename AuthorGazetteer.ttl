@@ -1,0 +1,1578 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lexicog: <http://www.w3.org/ns/lemon/lexicog#> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/3.0/lexinfo#> .
+@prefix lila: <http://lila-erc.eu/ontologies/lila/> .
+@prefix lilaAuthors: <http://lila-erc.eu/data/authors/> .
+@prefix lilaIpoLemma: <http://lila-erc.eu/dataid/hypolemma/> .
+@prefix lila_authors: <http://lila-erc.eu/data/corporaid/authors/> .
+@prefix lila_corpus: <http://lila-erc.eu/ontologies/lila_corpora/> .
+@prefix lila_lemma: <http://lila-erc.eu/dataid/lemma/> .
+@prefix lime: <http://www.w3.org/ns/lemon/lime#> .
+@prefix morph: <https://ontolex.github.io/morph/> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix powla: <http://purl.org/powla/powla.owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix unimorph: <http://purl.org/olia/unimorph.owl#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+lilaAuthors:Gazetteer a void:Dataset;
+  dct:contributor "Matteo Pellegrini, Francesco Mambrini, Giovanni Moretti, Marco Passarotti";
+  dct:description "A gazetteer listing the authors present in the LiLa documents collection.";
+  dct:license <http://www.wikidata.org/entity/Q18199165>;
+  dct:publisher <http://www.wikidata.org/entity/Q89883181>;
+  dct:title "LiLa author gazetteer";
+  rdfs:label "LiLa author gazetteer" .
+
+<http://lila-erc.eu/data/authors/id/a1> a crm:E39_Actor;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Anonymus";
+  skos:prefLabel "Anonymus" .
+
+<http://lila-erc.eu/data/authors/id/a2> a crm:E39_Actor;
+  lila:endDate "0599-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Anonymus Valesianus";
+  skos:prefLabel "Anonymus Valesianus" .
+
+<http://lila-erc.eu/data/authors/id/a3> a crm:E39_Actor;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Balbus (Ps.)";
+  skos:prefLabel "Balbus (Ps.)" .
+
+<http://lila-erc.eu/data/authors/id/a4> a crm:E39_Actor;
+  lila:endDate "0199-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0100-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Caper (Ps.)";
+  skos:prefLabel "Caper (Ps.)" .
+
+<http://lila-erc.eu/data/authors/id/a5> a crm:E39_Actor;
+  lila:endDate "0399-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Euantius";
+  skos:prefLabel "Euantius" .
+
+<http://lila-erc.eu/data/authors/id/a6> a crm:E39_Actor;
+  lila:endDate "0484-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0440-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Euricus";
+  skos:prefLabel "Euricus" .
+
+<http://lila-erc.eu/data/authors/id/a7> a crm:E39_Actor;
+  lila:endDate "0599-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Fulgentius (Ps.)";
+  skos:prefLabel "Fulgentius (Ps.)" .
+
+<http://lila-erc.eu/data/authors/id/a8> a crm:E39_Actor;
+  lila:endDate "0199-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0100-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Gaius";
+  skos:prefLabel "Gaius" .
+
+<http://lila-erc.eu/data/authors/id/a9> a crm:E39_Actor;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Gargilius Martialis Ps.";
+  skos:prefLabel "Gargilius Martialis Ps." .
+
+<http://lila-erc.eu/data/authors/id/a11> a crm:E39_Actor;
+  lila:endDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Charisius, Flavius Sosipater";
+  skos:altLabel "\"Carisio, Flavio Sosípatro\""@sp, "\"Charisius Flavius Sosipater 03..-03..\""@fr,
+    "\"Charisius, Flavius Sosipater ca. 4. Jh.\""@de, "\"Flavius Sosipater Charisius\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1001949>;
+  skos:prefLabel "Charisius, Flavius Sosipater" .
+
+<http://lila-erc.eu/data/authors/id/a12> a crm:E39_Actor;
+  lila:endDate "0524-01-01T00:00:00.000Z"^^xsd:dateTime, "0524-10-27T00:00:00.000Z"^^xsd:dateTime,
+    "0525-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0475-01-01T00:00:00.000Z"^^xsd:dateTime, "0480-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Boethius, -524";
+  skos:altLabel "\"Anicius Manlius Severinus Boethius\""@la, "\"Anicius Manlius Severinus Boethius\""@mul,
+    "\"Boethius\""@en, "\"Boethius, Anicius Manlius Severinus 480-524\""@de, "\"Boèce 0480?-0524\""@fr;
+  skos:exactMatch <http://www.wikidata.org/entity/Q102851>;
+  skos:prefLabel "Boethius, -524" .
+
+<http://lila-erc.eu/data/authors/id/a13> a crm:E39_Actor;
+  lila:endDate "-0044-01-01T00:00:00.000Z"^^xsd:dateTime, "-0044-03-13T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "-0100-01-01T00:00:00.000Z"^^xsd:dateTime, "-0100-07-01T00:00:00.000Z"^^xsd:dateTime,
+    "-0100-07-10T00:00:00.000Z"^^xsd:dateTime, "-0100-07-11T00:00:00.000Z"^^xsd:dateTime,
+    "-0102-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Caesar, Julius";
+  skos:altLabel "\"Caesar, Gaius Iulius v100-v44\""@de, "\"César Jules 0100-0044 av. J.-C.\""@fr,
+    "\"César, Cayo Julio\""@sp, "\"Gaius Iulius Caesar\""@la, "\"Julius Caesar\""@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1048>;
+  skos:prefLabel "Caesar, Julius" .
+
+<http://lila-erc.eu/data/authors/id/a14> a crm:E39_Actor;
+  lila:endDate "0250-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0200-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Aquila, Romanus";
+  skos:altLabel "\"Aquila Romanus 02..?-02..?\""@fr, "\"Aquila Romanus 3. Jh.\""@de,
+    "\"Aquila Romanus\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1056198>;
+  skos:prefLabel "Aquila, Romanus" .
+
+<http://lila-erc.eu/data/authors/id/a15> a crm:E39_Actor;
+  lila:endDate "1321-01-01T00:00:00.000Z"^^xsd:dateTime, "1321-09-21T00:00:00.000Z"^^xsd:dateTime,
+    "1321-09-22T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "1265-01-01T00:00:00.000Z"^^xsd:dateTime, "1265-06-06T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Dante Alighieri, 1265-1321";
+  skos:altLabel "\"Dante Alighieri\""@en, "\"Dantes Aligerius\""@la, "\"Durante degli Alighieri\""@mul;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1067>;
+  skos:prefLabel "Dante Alighieri, 1265-1321" .
+
+<http://lila-erc.eu/data/authors/id/a16> a crm:E39_Actor;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Clodianus";
+  skos:altLabel "Clodianus"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q108915320>;
+  skos:prefLabel "Clodianus" .
+
+<http://lila-erc.eu/data/authors/id/a17> a crm:E39_Actor;
+  lila:endDate "-0016-01-01T00:00:00.000Z"^^xsd:dateTime, "-0017-01-01T00:00:00.000Z"^^xsd:dateTime,
+    "-0018-01-01T00:00:00.000Z"^^xsd:dateTime, "-0019-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "-0050-01-01T00:00:00.000Z"^^xsd:dateTime, "-0051-01-01T00:00:00.000Z"^^xsd:dateTime,
+    "-0054-01-01T00:00:00.000Z"^^xsd:dateTime, "-0055-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Tibullus";
+  skos:altLabel "\"Albius Tibullus\""@la, "\"Tibulle 0050?-0018? av. J.-C.\""@fr, "\"Tibullus\""@en,
+    "\"Tibullus, Albius v50-v19\""@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q109598>;
+  skos:prefLabel "Tibullus" .
+
+<http://lila-erc.eu/data/authors/id/a18> a crm:E39_Actor;
+  lila:endDate "0599-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Hippocrates Latinus";
+  skos:altLabel "\"Hippocrates (Ps.)\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q110323052>;
+  skos:prefLabel "Hippocrates Latinus" .
+
+<http://lila-erc.eu/data/authors/id/a19> a crm:E39_Actor;
+  lila:startDate "0250-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Labeo, Cornelius";
+  skos:exactMatch <http://www.wikidata.org/entity/Q1133857>;
+  skos:prefLabel "Labeo, Cornelius" .
+
+<http://lila-erc.eu/data/authors/id/a20> a crm:E39_Actor;
+  lila:endDate "0399-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0200-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Sacerdos, Marius Plotius";
+  skos:altLabel "\"Marius Plotius Sacerdos\""@en, "\"Marius Plotius Sacerdos\""@la,
+    "\"Sacerdos, Marius Plotius 3./4. Jh.\""@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1164905>;
+  skos:prefLabel "Sacerdos, Marius Plotius" .
+
+<http://lila-erc.eu/data/authors/id/a21> a crm:E39_Actor;
+  lila:endDate "0599-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Eutyches";
+  skos:altLabel "\"Eutyches Grammaticus ca. 6. Jh.\""@de, "\"Eutyches Grammaticus\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q11921316>;
+  skos:prefLabel "Eutyches" .
+
+<http://lila-erc.eu/data/authors/id/a22> a crm:E39_Actor;
+  lila:endDate "0399-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Plinius junior";
+  skos:altLabel "Plinius junior"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q11923645>;
+  skos:prefLabel "Plinius junior" .
+
+<http://lila-erc.eu/data/authors/id/a23> a crm:E39_Actor;
+  lila:endDate "0499-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Hilarianus, Quintus Julius";
+  skos:exactMatch <http://www.wikidata.org/entity/Q11944269>;
+  skos:prefLabel "Hilarianus, Quintus Julius" .
+
+<http://lila-erc.eu/data/authors/id/a24> a crm:E39_Actor;
+  lila:endDate "0199-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0100-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Velius Longus";
+  skos:altLabel "\"Velius Longus ca. 2. Jh.\""@de, "\"Velius Longus\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q11954435>;
+  skos:prefLabel "Velius Longus" .
+
+<http://lila-erc.eu/data/authors/id/a25> a crm:E39_Actor;
+  lila:endDate "0499-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Sergius";
+  skos:altLabel "Sergius"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q120727392>;
+  skos:prefLabel "Sergius" .
+
+<http://lila-erc.eu/data/authors/id/a26> a crm:E39_Actor;
+  lila:endDate "0399-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Diomedes (Grammarian)";
+  skos:altLabel "\"Diomedes (Grammarian)\""@en, "\"Diomedes Grammaticus ca. 4. Jh.\""@de,
+    "\"Diomedes Grammaticus\""@la, "\"Diomedes\""@sp, "\"Diomède 03..-03..\""@fr;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1226908>;
+  skos:prefLabel "Diomedes (Grammarian)" .
+
+<http://lila-erc.eu/data/authors/id/a27> a crm:E39_Actor;
+  lila:endDate "0330-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0250-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Porfyrius, P. Optatianus";
+  skos:altLabel "\"Optaciano Porfirio, Publilio\""@sp, "\"Optatianus Porfyrius, Publilius ca. ca.260/270-ca.334\""@de,
+    "\"Optatien 0260?-0334?\""@fr, "\"Porphyrius Optantianus\""@mul, "\"Publilius Optatianus Porfirius\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1228531>;
+  skos:prefLabel "Porfyrius, P. Optatianus" .
+
+<http://lila-erc.eu/data/authors/id/a28> a crm:E39_Actor;
+  lila:endDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Placitus, Sextus, Papyriensis";
+  skos:exactMatch <http://www.wikidata.org/entity/Q1287418>;
+  skos:prefLabel "Placitus, Sextus, Papyriensis" .
+
+<http://lila-erc.eu/data/authors/id/a29> a crm:E39_Actor;
+  lila:endDate "-0101-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "-0200-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Damigeron, active 2nd century B.C.";
+  skos:exactMatch <http://www.wikidata.org/entity/Q12875839>;
+  skos:prefLabel "Damigeron, active 2nd century B.C." .
+
+<http://lila-erc.eu/data/authors/id/a30> a crm:E39_Actor;
+  lila:endDate "0600-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0600-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Jordanes";
+  skos:altLabel "\"Iordanes : Gothus\""@it, "\"Iordanes Gotus ca. 6. Jh.\""@de, "\"Iordanes Gotus\""@la,
+    "\"Jordanes s. VI\""@sp, "\"Jordanes\""@en, "\"Jordanes\""@fr, "\"Jordanes\""@mul;
+  skos:exactMatch <http://www.wikidata.org/entity/Q131548>;
+  skos:prefLabel "Jordanes" .
+
+<http://lila-erc.eu/data/authors/id/a31> a crm:E39_Actor;
+  lila:endDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Priscianus, Theodorus";
+  skos:exactMatch <http://www.wikidata.org/entity/Q1320120>;
+  skos:prefLabel "Priscianus, Theodorus" .
+
+<http://lila-erc.eu/data/authors/id/a32> a crm:E39_Actor;
+  lila:endDate "0599-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Eugraphius";
+  skos:altLabel "\"Eugraphius ca. 6. Jh.\""@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1373405>;
+  skos:prefLabel "Eugraphius" .
+
+<http://lila-erc.eu/data/authors/id/a33> a crm:E39_Actor;
+  lila:endDate "0311-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0260-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Eumenius, of Autun";
+  skos:altLabel "\"Eumenius \""@en, "\"Eumenius Augustodunensis\""@mul, "\"Eumenius Panegyricus ca. um 300\""@de,
+    "\"Eumenius Panegyricus\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1373954>;
+  skos:prefLabel "Eumenius, of Autun" .
+
+<http://lila-erc.eu/data/authors/id/a34> a crm:E39_Actor;
+  lila:endDate "-0019-01-01T00:00:00.000Z"^^xsd:dateTime, "-0019-09-19T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "-0070-01-01T00:00:00.000Z"^^xsd:dateTime, "-0070-10-13T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Virgil";
+  skos:altLabel "\"Publius Vergilius Maro\""@la, "\"Vergil\""@en, "\"Vergilius Maro , Publius\""@it,
+    "\"Vergilius Maro, Publius v70-v19\""@de, "\"Virgile 0070-0019 av. J.-C.\""@fr, "\"Virgilio Marón, Publio\""@sp;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1398>;
+  skos:prefLabel "Virgil" .
+
+<http://lila-erc.eu/data/authors/id/a35> a crm:E39_Actor;
+  lila:endDate "0450-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0350-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Favonius Eulogius";
+  skos:exactMatch <http://www.wikidata.org/entity/Q1398914>;
+  skos:prefLabel "Favonius Eulogius" .
+
+<http://lila-erc.eu/data/authors/id/a36> a crm:E39_Actor;
+  lila:endDate "0138-07-09T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0076-01-22T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Hadrian, Emperor of Rome";
+  skos:altLabel "\"Hadrian Römisches Reich, Kaiser 76-138\""@de, "\"Hadrian\""@en,
+    "\"Hadrien empereur romain 0076-0138\""@fr, "\"Publius Aelius Hadrianus Augustus\""@la,
+    "\"Publius Aelius Hadrianus\""@mul;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1427>;
+  skos:prefLabel "Hadrian, Emperor of Rome" .
+
+<http://lila-erc.eu/data/authors/id/a37> a crm:E39_Actor;
+  lila:startDate "0350-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Agennius Urbicus";
+  skos:altLabel "\"Agennius Urbicus 4./5. Jh.\""@de, "\"Agennius Urbicus\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1454878>;
+  skos:prefLabel "Agennius Urbicus" .
+
+<http://lila-erc.eu/data/authors/id/a38> a crm:E39_Actor;
+  lila:endDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Vindicianus";
+  skos:exactMatch <http://www.wikidata.org/entity/Q1460007>;
+  skos:prefLabel "Vindicianus" .
+
+<http://lila-erc.eu/data/authors/id/a39> a crm:E39_Actor;
+  lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Philocalus, Furius Dionysius, active 4th century";
+  skos:altLabel "\"Furius Dionysius Philocalus\""@la, "\"Furius Dionysius Philocalus\""@mul,
+    "\"Philocalus, Furius Dionysius um 354 n. Chr.\""@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1474972>;
+  skos:prefLabel "Philocalus, Furius Dionysius, active 4th century" .
+
+<http://lila-erc.eu/data/authors/id/a40> a crm:E39_Actor;
+  lila:endDate "-0043-12-01T00:00:00.000Z"^^xsd:dateTime, "-0043-12-05T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "-0107-12-31T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Cicero, Marcus Tullius";
+  skos:altLabel "\"Cicero , Marcus Tullius\""@it, "\"Cicero, Marcus Tullius v106-v43\""@de,
+    "\"Cicero, Tully\""@en, "\"Cicerón, Marco Tulio\""@sp, "\"Cicéron 0106-0043 av. J.-C.\""@fr,
+    "\"Marcus Tullius Cicero\""@la, "\"Marcus Tullius Cicero\""@mul;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1541>;
+  skos:prefLabel "Cicero, Marcus Tullius" .
+
+<http://lila-erc.eu/data/authors/id/a41> a crm:E39_Actor;
+  lila:endDate "0840-01-01T00:00:00.000Z"^^xsd:dateTime, "0840-03-18T00:00:00.000Z"^^xsd:dateTime,
+    "0840-03-22T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0774-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Einhard";
+  skos:altLabel "\"Einhard\""@en, "\"Einhardus \""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q154526>;
+  skos:prefLabel "Einhard" .
+
+<http://lila-erc.eu/data/authors/id/a42> a crm:E39_Actor;
+  lila:endDate "1378-11-29T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "1316-05-14T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Charles IV, Holy Roman Emperor, 1316-1378";
+  skos:altLabel "\"Carolus IV\""@la, "\"Charles of Luxebourg/ Charles Wenceslas\""@en,
+    "\"Karel Lucembursky/ Karel Václav\""@mul;
+  skos:exactMatch <http://www.wikidata.org/entity/Q155669>;
+  skos:prefLabel "Charles IV, Holy Roman Emperor, 1316-1378" .
+
+<http://lila-erc.eu/data/authors/id/a43> a crm:E39_Actor;
+  lila:endDate "0499-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Grillius (Grammarian)";
+  skos:altLabel "\"Grilio\""@sp, "\"Grillius\""@en, "\"Grillius\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q15634893>;
+  skos:prefLabel "Grillius (Grammarian)" .
+
+<http://lila-erc.eu/data/authors/id/a44> a crm:E39_Actor;
+  lila:endDate "0423-01-01T00:00:00.000Z"^^xsd:dateTime, "0423-08-01T00:00:00.000Z"^^xsd:dateTime,
+    "0423-08-16T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0384-01-01T00:00:00.000Z"^^xsd:dateTime, "0384-09-10T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Honorius";
+  skos:altLabel "Honorius"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q159798>;
+  skos:prefLabel "Honorius" .
+
+<http://lila-erc.eu/data/authors/id/a45> a crm:E39_Actor;
+  lila:endDate "0514-07-21T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0460-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Symmachus, Pope";
+  skos:altLabel "\"Pope Symmachus\""@en, "\"Symmachus Papa\""@mul, "\"Symmachus Papst -514\""@de,
+    "\"Symmachus\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q160935>;
+  skos:prefLabel "Symmachus, Pope" .
+
+<http://lila-erc.eu/data/authors/id/a46> a crm:E39_Actor;
+  lila:endDate "-0054-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "-0084-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Catullus, Gaius Valerius";
+  skos:altLabel "\"Catullus\""@en, "\"Gaius Valerius Catullus\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q163079>;
+  skos:prefLabel "Catullus, Gaius Valerius" .
+
+<http://lila-erc.eu/data/authors/id/a47> a crm:E39_Actor;
+  lila:endDate "0636-01-01T00:00:00.000Z"^^xsd:dateTime, "0636-04-07T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0560-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Isidore, of Seville, Saint";
+  skos:altLabel "\"Isidore de Séville saint 0560?-0636\""@fr, "\"Isidoro, Santo, Arzobispo de Sevilla\""@sp,
+    "\"Isidorus Hispalensis 560-636\""@de, "\"Isidorus Hispalensis\""@la, "\"Saint Isidore of Seville\""@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q166876>;
+  skos:prefLabel "Isidore, of Seville, Saint" .
+
+<http://lila-erc.eu/data/authors/id/a48> a crm:E39_Actor;
+  lila:endDate "0395-01-01T00:00:00.000Z"^^xsd:dateTime, "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0320-01-01T00:00:00.000Z"^^xsd:dateTime, "0330-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Ammianus Marcellinus";
+  skos:altLabel "\"Amiano Marcelino\""@sp, "\"Ammianus Marcellinus 330-395\""@de, "\"Ammianus Marcellinus\""@en,
+    "\"Ammianus Marcellinus\""@la, "\"Ammianus Marcellinus\""@mul, "\"Ammien Marcellin 0330?-0395?\""@fr;
+  skos:exactMatch <http://www.wikidata.org/entity/Q172198>;
+  skos:prefLabel "Ammianus Marcellinus" .
+
+<http://lila-erc.eu/data/authors/id/a49> a crm:E39_Actor;
+  lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Lactantius Placidus";
+  skos:altLabel "\"Lactancio Placido\""@sp, "\"Lactantius Placidus ca. 6. Jh.\""@de,
+    "\"Lactantius Placidus\""@fr, "\"Lactantius Placidus\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q1799823>;
+  skos:prefLabel "Lactantius Placidus" .
+
+<http://lila-erc.eu/data/authors/id/a50> a crm:E39_Actor;
+  lila:endDate "-0147-01-01T00:00:00.000Z"^^xsd:dateTime, "-0149-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "-0232-01-01T00:00:00.000Z"^^xsd:dateTime, "-0234-01-01T00:00:00.000Z"^^xsd:dateTime,
+    "-0235-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Cato, Marcus Porcius";
+  skos:altLabel "\"Cato the Elder\""@en, "\"Cato, Marcus Porcius Censorius v234-v149\""@de,
+    "\"Caton l'Ancien 0234-0149 av. J.-C.\""@fr, "\"Marcus Porcius Cato\""@mul, "\"Marcus Porcius Cato, Cato\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q180081>;
+  skos:prefLabel "Cato, Marcus Porcius" .
+
+<http://lila-erc.eu/data/authors/id/a51> a crm:E39_Actor;
+  lila:endDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0350-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Polemius Silvius";
+  skos:altLabel "\"Polemius Silvius\""@de, "\"Polemius Silvius\""@fr, "\"Polemius Silvius\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q181983>;
+  skos:prefLabel "Polemius Silvius" .
+
+<http://lila-erc.eu/data/authors/id/a52> a crm:E39_Actor;
+  lila:endDate "0350-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Nonius Marcellus";
+  skos:altLabel "\"Nonio Marcelo\""@sp, "\"Nonius Marcellus 03..-03..\""@fr, "\"Nonius Marcellus ca. 4. Jh.\""@de,
+    "\"Nonius Marcellus\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q183420>;
+  skos:prefLabel "Nonius Marcellus" .
+
+<http://lila-erc.eu/data/authors/id/a53> a crm:E39_Actor;
+  lila:endDate "0600-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Priscian of Lydia";
+  skos:altLabel "Priscian of Lydia"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q185206>;
+  skos:prefLabel "Priscian of Lydia" .
+
+<http://lila-erc.eu/data/authors/id/a54> a crm:E39_Actor;
+  lila:endDate "0065-04-28T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0039-11-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Lucan";
+  skos:altLabel "\"Lucain 0039-0065\""@fr, "\"Lucan\""@en, "\"Lucano, Marco Anneo\""@sp,
+    "\"Lucanus, Marcus Annaeus 39-65\""@de, "\"Marcus Annaeus Lucanus\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q188646>;
+  skos:prefLabel "Lucan" .
+
+<http://lila-erc.eu/data/authors/id/a55> a crm:E39_Actor;
+  lila:endDate "0575-01-01T00:00:00.000Z"^^xsd:dateTime, "0583-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0487-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Cassiodorus, Senator";
+  skos:altLabel "\"Casiodoro, Magno Aurelio\""@sp, "\"Cassiodore 0490?-0580?\""@fr,
+    "\"Cassiodorus , Flavius Magnus Aurelius\""@it, "\"Cassiodorus\""@en, "\"Cassiodorus\""@la,
+    "\"Cassiodorus, Flavius Magnus Aurelius 490-583\""@de, "\"Flavius Magnus Aurelius Cassiodorus Senator\""@mul;
+  skos:exactMatch <http://www.wikidata.org/entity/Q192365>;
+  skos:prefLabel "Cassiodorus, Senator" .
+
+<http://lila-erc.eu/data/authors/id/a56> a crm:E39_Actor;
+  lila:endDate "0140-01-01T00:00:00.000Z"^^xsd:dateTime, "0200-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0055-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Juvenal";
+  skos:altLabel "\"Decimus Iunius Iuvenalis\""@la, "\"Iuvenalis , Decimus Iunius\""@it,
+    "\"Iuvenalis, Decimus Iunius ca. 60/90-140\""@de, "\"Juvenal\""@en, "\"Juvenal, Decio Junio\""@sp,
+    "\"Juvénal 0060?-0130?\""@fr;
+  skos:exactMatch <http://www.wikidata.org/entity/Q193800>;
+  skos:prefLabel "Juvenal" .
+
+<http://lila-erc.eu/data/authors/id/a57> a crm:E39_Actor;
+  lila:endDate "0364-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0290-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Maximus Victorinus";
+  skos:altLabel "\"Maximus Victorinus 4. Jh.\""@de, "\"Maximus Victorinus\""@en, "\"Maximus Victorinus\""@sp,
+    "\"Maximus Victorinus/Metrorius Maximus\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q19717378>;
+  skos:prefLabel "Maximus Victorinus" .
+
+<http://lila-erc.eu/data/authors/id/a58> a crm:E39_Actor;
+  lila:endDate "0399-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Rufinianus, Julius";
+  skos:altLabel "\"Iulius Rufinianus\""@la, "\"Julius Rufinianus\""@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q20004918>;
+  skos:prefLabel "Rufinianus, Julius" .
+
+<http://lila-erc.eu/data/authors/id/a59> a crm:E39_Actor;
+  lila:endDate "0065-04-10T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "-0005-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Seneca, Lucius Annaeus, approximately 4 B.C.-65 A.D.";
+  skos:altLabel "\"Lucius Annaeus Seneca\""@la, "\"Lucius Annaeus Seneca\""@mul, "\"Seneca , Lucius Annaeus <4 a. C.-65>\""@it,
+    "\"Seneca the Younger\""@en, "\"Seneca, Lucius Annaeus Philosophus v4-65\""@de, "\"Sénèque 0004 av. J.-C.-0065\""@fr;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2054>;
+  skos:prefLabel "Seneca, Lucius Annaeus, approximately 4 B.C.-65 A.D." .
+
+<http://lila-erc.eu/data/authors/id/a60> a crm:E39_Actor;
+  lila:startDate "0101-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Justinus, Marcus Junianus";
+  skos:altLabel "\"Iustinus\""@mul, "\"Iustinus, Marcus Iunianus ca. 3. Jh.\""@de, "\"Justin 02..-02.. historien\""@fr,
+    "\"Justin\""@en, "\"Justino, Marco Juniano\""@sp, "\"Marcus Iunianus Iustinus\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q210853>;
+  skos:prefLabel "Justinus, Marcus Junianus" .
+
+<http://lila-erc.eu/data/authors/id/a61> a crm:E39_Actor;
+  lila:endDate "0120-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0050-01-01T00:00:00.000Z"^^xsd:dateTime, "0055-01-01T00:00:00.000Z"^^xsd:dateTime,
+    "0056-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Tacitus, Cornelius";
+  skos:altLabel "\"Cornelius Tacitus\""@la, "\"Publius/Gaius Cornelius Tacitus\""@mul,
+    "\"Tacite 0055?-0120?\""@fr, "\"Tacitus , Publius Cornelius\""@it, "\"Tacitus\""@en,
+    "\"Tacitus, Cornelius 55-120\""@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2161>;
+  skos:prefLabel "Tacitus, Cornelius" .
+
+<http://lila-erc.eu/data/authors/id/a62> a crm:E39_Actor;
+  lila:endDate "0200-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0100-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Hyginus, Gromaticus";
+  skos:altLabel "\"Higino Gromatico\""@sp, "\"Hyginus Gromaticus ca. 1./2. Jh.\""@de,
+    "\"Hyginus Gromaticus\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q221223>;
+  skos:prefLabel "Hyginus, Gromaticus" .
+
+<http://lila-erc.eu/data/authors/id/a63> a crm:E39_Actor;
+  lila:endDate "0392-01-01T00:00:00.000Z"^^xsd:dateTime, "0395-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0309-01-01T00:00:00.000Z"^^xsd:dateTime, "0310-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Ausonius, Decimus Magnus";
+  skos:altLabel "\"Ausone 0310?-0395?\""@fr, "\"Ausonius , Decimus Magnus\""@it, "\"Ausonius, Decimus Magnus 310-395\""@de,
+    "\"Decimus Magnus Ausonius Burdigalensis\""@la, "\"Decimus Magnus Ausonius\""@en,
+    "\"Decimus Magnus Ausonius\""@mul;
+  skos:exactMatch <http://www.wikidata.org/entity/Q234593>;
+  skos:prefLabel "Ausonius, Decimus Magnus" .
+
+<http://lila-erc.eu/data/authors/id/a64> a crm:E39_Actor;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Donatus, Aelius";
+  skos:altLabel "Donatus, Aelius"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q24409516>;
+  skos:prefLabel "Donatus, Aelius" .
+
+<http://lila-erc.eu/data/authors/id/a65> a crm:E39_Actor;
+  lila:endDate "0380-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0315-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Donatus, Aelius";
+  skos:altLabel "\"Aelius Donatus\""@en, "\"Aelius Donatus\""@la, "\"Aelius Donatus\""@mul,
+    "\"Donat 0320?-0380?\""@fr, "\"Donato , Elio\""@it, "\"Donato, Elio\""@sp, "\"Donatus, Aelius ca. 4. Jh.\""@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q247137>;
+  skos:prefLabel "Donatus, Aelius" .
+
+<http://lila-erc.eu/data/authors/id/a66> a crm:E39_Actor;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Paulus, Julius";
+  skos:altLabel "\"Julius Paulus\""@en, "\"Julius Paulus\""@la, "\"Paulo, Julio\""@sp,
+    "\"Paulus Julius 01..-02..\""@fr;
+  skos:exactMatch <http://www.wikidata.org/entity/Q248628>;
+  skos:prefLabel "Paulus, Julius" .
+
+<http://lila-erc.eu/data/authors/id/a67> a crm:E39_Actor;
+  lila:endDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Aurelianus, Caelius";
+  skos:altLabel "\"Aureliano, Celio\""@sp, "\"Caelius Aurelianus 04..-04..\""@fr, "\"Caelius Aurelianus ca. 4./5. Jh.\""@de,
+    "\"Caelius Aurelianus\""@en, "\"Caelius Aurelianus\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2514828>;
+  skos:prefLabel "Aurelianus, Caelius" .
+
+<http://lila-erc.eu/data/authors/id/a68> a crm:E39_Actor;
+  lila:endDate "0599-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Dioscorides Latinus";
+  skos:altLabel "Dioscorides Latinus"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q25510573>;
+  skos:prefLabel "Dioscorides Latinus" .
+
+<http://lila-erc.eu/data/authors/id/a69> a crm:E39_Actor;
+  lila:endDate "0390-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0320-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Victor, Sextus Aurelius";
+  skos:altLabel "\"Aurelius Victor 03..-03..\""@fr, "\"Aurelius Victor, Sextus 320-390\""@de,
+    "\"Sextus Aurelius Victor\""@la, "\"Sextus Aurelius Victor\""@mul;
+  skos:exactMatch <http://www.wikidata.org/entity/Q275606>;
+  skos:prefLabel "Victor, Sextus Aurelius" .
+
+<http://lila-erc.eu/data/authors/id/a70> a crm:E39_Actor;
+  lila:endDate "0399-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Sulpicius, Victor";
+  skos:altLabel "\"Sulpicius, Victor\""@en, "\"Victor Sulpicius\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q28229532>;
+  skos:prefLabel "Sulpicius, Victor" .
+
+<http://lila-erc.eu/data/authors/id/a71> a crm:E39_Actor;
+  lila:endDate "0499-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Severianus, Julius";
+  skos:altLabel "\"Iulius Severianus ca. 5. Jh.\""@de, "\"Iulius Severianus\""@la, "\"Severiano, Julio\""@sp;
+  skos:exactMatch <http://www.wikidata.org/entity/Q28229535>;
+  skos:prefLabel "Severianus, Julius" .
+
+<http://lila-erc.eu/data/authors/id/a72> a crm:E39_Actor;
+  lila:endDate "0499-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Audax";
+  skos:altLabel "\"Audax Grammaticus 5./6. Jht.\""@de, "\"Audax Grammaticus\""@la, "\"Audax\""@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q28441319>;
+  skos:prefLabel "Audax" .
+
+<http://lila-erc.eu/data/authors/id/a73> a crm:E39_Actor;
+  lila:endDate "0499-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Consentius (Grammarian)";
+  skos:altLabel "\"Consencio, Publio\""@sp, "\"Consentius (Grammarian)\""@en, "\"Consentius Gallus\""@la,
+    "\"Consentius Grammaticus 475\""@de, "\"Consentius\""@it;
+  skos:exactMatch <http://www.wikidata.org/entity/Q2994436>;
+  skos:prefLabel "Consentius (Grammarian)" .
+
+<http://lila-erc.eu/data/authors/id/a74> a crm:E39_Actor;
+  lila:endDate "0399-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Fortunatianus";
+  skos:altLabel "Fortunatianus"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q30939794>;
+  skos:prefLabel "Fortunatianus" .
+
+<http://lila-erc.eu/data/authors/id/a75> a crm:E39_Actor;
+  lila:endDate "0430-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0370-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Macrobius, Ambrosius Aurelius Theodosius";
+  skos:altLabel "\"Ambrosius Theodosius Macrobius\""@la, "\"Macrobe 0370?-043.?\""@fr,
+    "\"Macrobio, Ambrosio Aurelio Teodosio\""@sp, "\"Macrobius\""@en, "\"Macrobius, Ambrosius Theodosius 385-430\""@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q313934>;
+  skos:prefLabel "Macrobius, Ambrosius Aurelius Theodosius" .
+
+<http://lila-erc.eu/data/authors/id/a76> a crm:E39_Actor;
+  lila:endDate "0370-01-01T00:00:00.000Z"^^xsd:dateTime, "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0310-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Eutropius, active 4th century";
+  skos:altLabel "\"Eutrope 03..?-03..?\""@fr, "\"Eutropio, Flavio\""@sp, "\"Eutropius ca. 4. Jh\""@de,
+    "\"Eutropius\""@en, "\"Eutropius\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q314694>;
+  skos:prefLabel "Eutropius, active 4th century" .
+
+<http://lila-erc.eu/data/authors/id/a77> a crm:E39_Actor;
+  lila:endDate "0140-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0070-01-01T00:00:00.000Z"^^xsd:dateTime, "0074-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Florus, Lucius Annaeus";
+  skos:altLabel "\"Floro, Lucio Anneo\""@sp, "\"Florus, Lucius Annaeus ca. 2. Jh.\""@de,
+    "\"Lucius Annaeus Florus\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q316483>;
+  skos:prefLabel "Florus, Lucius Annaeus" .
+
+<http://lila-erc.eu/data/authors/id/a78> a crm:E39_Actor;
+  lila:endDate "0450-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0350-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Exuperantius, Julius";
+  skos:altLabel "\"Exsuperantius Julius\""@fr, "\"Exuperancio, Julio\""@sp, "\"Exuperantius, Iulius ca. 4./5.Jh.\""@de,
+    "\"Iulius Exuperantius\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3189849>;
+  skos:prefLabel "Exuperantius, Julius" .
+
+<http://lila-erc.eu/data/authors/id/a79> a crm:E39_Actor;
+  lila:endDate "0350-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0350-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Julius Victor, C. (Gaius)";
+  skos:altLabel "\"Gaius Iulius Victor\""@la, "\"Gaius Julius Victor\""@en, "\"Victor Julius\""@fr,
+    "\"Victor, Gaius I.\""@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3207287>;
+  skos:prefLabel "Julius Victor, C. (Gaius)" .
+
+<http://lila-erc.eu/data/authors/id/a80> a crm:E39_Actor;
+  lila:endDate "0199-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0100-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Nipsus, Marcus Iunius";
+  skos:exactMatch <http://www.wikidata.org/entity/Q3290266>;
+  skos:prefLabel "Nipsus, Marcus Iunius" .
+
+<http://lila-erc.eu/data/authors/id/a81> a crm:E39_Actor;
+  lila:endDate "0062-11-22T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0034-12-02T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Persius";
+  skos:altLabel "\"Aulus Persius Flaccus\""@la, "\"Aulus Persius Flaccus\""@mul, "\"Perse 0034-0062\""@fr,
+    "\"Persio Flaco, Aulo\""@sp, "\"Persius Flaccus , Aulus\""@it, "\"Persius Flaccus, Aulus 34-62\""@de,
+    "\"Persius\""@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q332785>;
+  skos:prefLabel "Persius" .
+
+<http://lila-erc.eu/data/authors/id/a82> a crm:E39_Actor;
+  lila:endDate "0449-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Phocas";
+  skos:altLabel "\"Focas\""@mul, "\"Phocas Grammaticus ca. 3./4. Jh., nach LAW abweichend 5. Jh.\""@de,
+    "\"Phocas Grammaticus\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3381349>;
+  skos:prefLabel "Phocas" .
+
+<http://lila-erc.eu/data/authors/id/a83> a crm:E39_Actor;
+  lila:endDate "0499-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Pompeius, active 5th century-6th century";
+  skos:altLabel "\"Sextus Pompeius Maurus\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3396074>;
+  skos:prefLabel "Pompeius, active 5th century-6th century" .
+
+<http://lila-erc.eu/data/authors/id/a84> a crm:E39_Actor;
+  lila:endDate "0534-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0450-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Anthimus";
+  skos:altLabel "\"Anthimus Medicus ca. um 511/34\""@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q343875>;
+  skos:prefLabel "Anthimus" .
+
+<http://lila-erc.eu/data/authors/id/a85> a crm:E39_Actor;
+  lila:endDate "0428-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0360-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Martianus Capella";
+  skos:altLabel "\"Martianus Capella\""@en, "\"Martianus Mineus Felix Capella\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q348408>;
+  skos:prefLabel "Martianus Capella" .
+
+<http://lila-erc.eu/data/authors/id/a86> a crm:E39_Actor;
+  lila:endDate "0599-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Mustio";
+  skos:altLabel "\"Mustio\""@fr, "\"Mustio/Muscio\""@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3502629>;
+  skos:prefLabel "Mustio" .
+
+<http://lila-erc.eu/data/authors/id/a87> a crm:E39_Actor;
+  lila:endDate "-0043-01-01T00:00:00.000Z"^^xsd:dateTime, "-0043-04-19T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "-0090-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Hirtius, Aulus";
+  skos:altLabel "\"Aulus Hirtius\""@la, "\"Aulus Hirtius\""@mul, "\"Hircio, Aulo\""@sp,
+    "\"Hirtius Aulus 0090-0043 av. J.-C.\""@fr, "\"Hirtius, Aulus -v43\""@de, "\"Pseudo-Caesar\""@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q354990>;
+  skos:prefLabel "Hirtius, Aulus" .
+
+<http://lila-erc.eu/data/authors/id/a88> a crm:E39_Actor;
+  lila:endDate "0301-01-01T00:00:00.000Z"^^xsd:dateTime, "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0363-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Servius, active 4th century";
+  skos:altLabel "\"Maurus Servius Honoratus\""@en, "\"Maurus Servius Honoratus\""@la,
+    "\"Servio, Mauro Honorato\""@sp, "\"Servius Maurus Honoratus 0363?-03..\""@fr;
+  skos:exactMatch <http://www.wikidata.org/entity/Q355350>;
+  skos:prefLabel "Servius, active 4th century" .
+
+<http://lila-erc.eu/data/authors/id/a89> a crm:E39_Actor;
+  lila:endDate "0402-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0345-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Symmachus, Quintus Aurelius, approximately 340-402";
+  skos:altLabel "\"Q. Aurelius Memmius Symmachus\""@la, "\"Symmachus, Quintus Aurelius ca. 340-402\""@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q355720>;
+  skos:prefLabel "Symmachus, Quintus Aurelius, approximately 340-402" .
+
+<http://lila-erc.eu/data/authors/id/a90> a crm:E39_Actor;
+  lila:endDate "0150-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0101-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Siculus Flaccus";
+  skos:altLabel "\"Siculus Flaccus ca. 2. Jh.\""@de, "\"Siculus Flaccus\""@fr, "\"Siculus Flaccus\""@it,
+    "\"Siculus Flaccus\""@la, "\"Siculus Flaccus\""@mul;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3624745>;
+  skos:prefLabel "Siculus Flaccus" .
+
+<http://lila-erc.eu/data/authors/id/a91> a crm:E39_Actor;
+  lila:endDate "0375-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0305-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Avienus, Rufius Festus";
+  skos:altLabel "\"Avieno, Rufo Festo\""@sp, "\"Avienus Rufus Festus 0305?-0375?\""@fr,
+    "\"Avienus\""@en, "\"Avienus, Rufius Festus 305-375\""@de, "\"Postumius Rufius Festus Avienus\""@mul,
+    "\"Rufius Festus Avienus\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q366793>;
+  skos:prefLabel "Avienus, Rufius Festus" .
+
+<http://lila-erc.eu/data/authors/id/a92> a crm:E39_Actor;
+  lila:endDate "0360-01-01T00:00:00.000Z"^^xsd:dateTime, "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0314-01-01T00:00:00.000Z"^^xsd:dateTime, "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Firmicus Maternus, Julius";
+  skos:altLabel "\"Firmicus Maternus Julius\""@fr, "\"Firmicus Maternus, Iulius ca. 335/350\""@de,
+    "\"Fírmico Materno, Julio\""@sp, "\"Iulius Firmicus Maternus\""@la, "\"Julius Firmicus Maternus\""@en,
+    "\"Julius Firmicus Maternus\""@mul;
+  skos:exactMatch <http://www.wikidata.org/entity/Q367422>;
+  skos:prefLabel "Firmicus Maternus, Julius" .
+
+<http://lila-erc.eu/data/authors/id/a93> a crm:E39_Actor;
+  lila:endDate "0399-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Paris, Julius";
+  skos:altLabel "\"Iulius Paris\""@la, "\"Julius Paris\""@en, "\"Paris Julius\""@fr,
+    "\"Paris, Julius\""@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q3769739>;
+  skos:prefLabel "Paris, Julius" .
+
+<http://lila-erc.eu/data/authors/id/a94> a crm:E39_Actor;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Martinus";
+  skos:altLabel "Martinus"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q4282541>;
+  skos:prefLabel "Martinus" .
+
+<http://lila-erc.eu/data/authors/id/a95> a crm:E39_Actor;
+  lila:endDate "0450-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Vegetius Renatus, Flavius";
+  skos:altLabel "\"Flavius Vegetius Renatus\""@la, "\"Vegetius Renatus, Flavius 383-450\""@de,
+    "\"Vegetius\""@en, "\"Végèce 0383?-0450?\""@fr;
+  skos:exactMatch <http://www.wikidata.org/entity/Q4298>;
+  skos:prefLabel "Vegetius Renatus, Flavius" .
+
+<http://lila-erc.eu/data/authors/id/a96> a crm:E39_Actor;
+  lila:endDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Vibius, Sequester";
+  skos:altLabel "\"Vibio Secuestre\""@sp, "\"Vibius Sequester ca. 4/5. Jh\""@de, "\"Vibius Sequester\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q431367>;
+  skos:prefLabel "Vibius, Sequester" .
+
+<http://lila-erc.eu/data/authors/id/a97> a crm:E39_Actor;
+  lila:endDate "0076-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "-0009-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Asconius Pedianus, Quintus";
+  skos:altLabel "\"Asconius Pedianus Quintus 0009 av. J.-C.?-0076?\""@fr, "\"Asconius Pedianus, Quintus v9-76\""@de,
+    "\"Quintus Asconius Pedianus\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q444285>;
+  skos:prefLabel "Asconius Pedianus, Quintus" .
+
+<http://lila-erc.eu/data/authors/id/a98> a crm:E39_Actor;
+  lila:endDate "2025-04-21T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "1936-12-17T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Pope Francis";
+  skos:altLabel "Pope Francis"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q450675>;
+  skos:prefLabel "Pope Francis" .
+
+<http://lila-erc.eu/data/authors/id/a99> a crm:E39_Actor;
+  lila:endDate "0850-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0775-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Amalarius, Archbishop of Lyon";
+  skos:altLabel "\"Amalarius Metensis 775-850\""@de, "\"Amalarius Metensis\""@la, "\"Amalarius von Metz\""@mul,
+    "\"Amalarius\""@en, "\"Amalarius\""@it;
+  skos:exactMatch <http://www.wikidata.org/entity/Q452681>;
+  skos:prefLabel "Amalarius, Archbishop of Lyon" .
+
+<http://lila-erc.eu/data/authors/id/a100> a crm:E39_Actor;
+  lila:endDate "0250-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0100-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Aemilius Asper, active 2nd century";
+  skos:altLabel "\"Aemilius Asper\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q4687746>;
+  skos:prefLabel "Aemilius Asper, active 2nd century" .
+
+<http://lila-erc.eu/data/authors/id/a101> a crm:E39_Actor;
+  lila:endDate "-0055-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "-0094-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Lucretius Carus, Titus";
+  skos:altLabel "\"Lucrecio Caro, Tito\""@sp, "\"Lucretius Carus, Titus v94-v55\""@de,
+    "\"Lucretius\""@en, "\"Lucrèce 0097?-0055 av. J.-C.\""@fr, "\"Titus Lucretius Carus\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q47154>;
+  skos:prefLabel "Lucretius Carus, Titus" .
+
+<http://lila-erc.eu/data/authors/id/a102> a crm:E39_Actor;
+  lila:endDate "-0184-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "-0250-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Plautus, Titus Maccius";
+  skos:altLabel "\"Plaute 0254-0184 av. J.-C.\""@fr, "\"Plauto, Tito Maccio\""@sp, "\"Plautus , Titus Maccius\""@it,
+    "\"Plautus\""@en, "\"Plautus, Titus Maccius v254-v184\""@de, "\"Titus Maccius Plautus\""@la,
+    "\"Titus Maccius Plautus\""@mul;
+  skos:exactMatch <http://www.wikidata.org/entity/Q47160>;
+  skos:prefLabel "Plautus, Titus Maccius" .
+
+<http://lila-erc.eu/data/authors/id/a103> a crm:E39_Actor;
+  lila:endDate "0066-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0027-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Petronius Arbiter";
+  skos:altLabel "\"Petronio Árbitro, Cayo\""@sp, "\"Petronius Arbiter -66\""@de, "\"Petronius Arbiter\""@it,
+    "\"Petronius Arbiter\""@la, "\"Petronius\""@en, "\"Pétrone 00..?-0066\""@fr;
+  skos:exactMatch <http://www.wikidata.org/entity/Q47180>;
+  skos:prefLabel "Petronius Arbiter" .
+
+<http://lila-erc.eu/data/authors/id/a104> a crm:E39_Actor;
+  lila:endDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0350-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Dictys, Cretensis";
+  skos:altLabel "\"Dictis de Creta\""@sp, "\"Dictys : Cretensis\""@it, "\"Dictys Cretensis ca. 1./3. Jh.\""@de,
+    "\"Dictys Cretensis\""@la, "\"Dictys de Crète\""@fr, "\"Dictys of Crete\""@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q475001>;
+  skos:prefLabel "Dictys, Cretensis" .
+
+<http://lila-erc.eu/data/authors/id/a105> a crm:E39_Actor;
+  lila:endDate "0050-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0050-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Calpurnius Flaccus";
+  skos:altLabel "\"Calpurnio Flaco\""@sp, "\"Calpurnius Flaccus 00..-01..\""@fr, "\"Calpurnius Flaccus ca. 2. Jh.\""@de,
+    "\"Calpurnius Flaccus\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q5023939>;
+  skos:prefLabel "Calpurnius Flaccus" .
+
+<http://lila-erc.eu/data/authors/id/a106> a crm:E39_Actor;
+  lila:endDate "0180-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0110-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Hegesippus, Saint";
+  skos:altLabel "\"Hegesippus Palaestinus\""@mul, "\"Hegesippus\""@la, "\"Saint Hegesippus\""@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q503230>;
+  skos:prefLabel "Hegesippus, Saint" .
+
+<http://lila-erc.eu/data/authors/id/a107> a crm:E39_Actor;
+  lila:endDate "0450-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0450-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Agroecius, Bishop of Sens";
+  skos:altLabel "\"Agroecius\""@it;
+  skos:exactMatch <http://www.wikidata.org/entity/Q518973>;
+  skos:prefLabel "Agroecius, Bishop of Sens" .
+
+<http://lila-erc.eu/data/authors/id/a108> a crm:E39_Actor;
+  lila:endDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Gargilius Martialis, Quintus";
+  skos:altLabel "\"Gargilius Martialis 0210?-0260\""@fr, "\"Gargilius Martialis, Quintus ca. 3. Jh.\""@de,
+    "\"Marcial, Gargilio\""@sp, "\"Quintus Gargilius Martialis\""@en, "\"Quintus Gargilius Martialis\""@la,
+    "\"Quintus Gargilius Martialis\""@mul;
+  skos:exactMatch <http://www.wikidata.org/entity/Q531952>;
+  skos:prefLabel "Gargilius Martialis, Quintus" .
+
+<http://lila-erc.eu/data/authors/id/a109> a crm:E39_Actor;
+  lila:startDate "0150-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Terentianus Maurus";
+  skos:altLabel "\"Maurus Terentianus\""@la, "\"Terenciano Mauro\""@sp, "\"Terentianus Maurus 01..-01..\""@fr,
+    "\"Terentianus Maurus ca. 2./3. Jh.\""@de, "\"Terentianus Maurus\""@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q535060>;
+  skos:prefLabel "Terentianus Maurus" .
+
+<http://lila-erc.eu/data/authors/id/a110> a crm:E39_Actor;
+  lila:endDate "0599-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Emporius, Orator";
+  skos:altLabel "\"Emporius Rhetor ca. 5.-6. Jh\""@de, "\"Emporius\""@la, "\"Emporius, Orator/Rhetor\""@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q5374414>;
+  skos:prefLabel "Emporius, Orator" .
+
+<http://lila-erc.eu/data/authors/id/a111> a crm:E39_Actor;
+  lila:endDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0450-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Dares, Phrygius";
+  skos:altLabel "\"Dares Phrygius\""@fr, "\"Dares Phrygius\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q544378>;
+  skos:prefLabel "Dares, Phrygius" .
+
+<http://lila-erc.eu/data/authors/id/a112> a crm:E39_Actor;
+  lila:endDate "1140-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "1070-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Gratian";
+  skos:altLabel "Gratian"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q549041>;
+  skos:prefLabel "Gratian" .
+
+<http://lila-erc.eu/data/authors/id/a113> a crm:E39_Actor;
+  lila:endDate "0301-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0301-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Palladius, Rutilius Taurus Aemilianus";
+  skos:altLabel "\"Paladio, Rutilio Tauro Emiliano\""@sp, "\"Palladius Rutilius Taurus Aemilianus 03..-03..\""@fr,
+    "\"Palladius\""@en, "\"Palladius, Rutilius Taurus Aemilianus ca. 4. Jh.\""@de, "\"Rutilius Taurus Aemilianus Palladius\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q561353>;
+  skos:prefLabel "Palladius, Rutilius Taurus Aemilianus" .
+
+<http://lila-erc.eu/data/authors/id/a114> a crm:E39_Actor;
+  lila:endDate "0201-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0201-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Cetius Faventinus, Marcus";
+  skos:altLabel "\"Cetius Faventinus Marcus\""@fr, "\"Marcus Cetius Faventinus\""@la,
+    "\"Marcus Cetius Faventinus\""@mul;
+  skos:exactMatch <http://www.wikidata.org/entity/Q5655743>;
+  skos:prefLabel "Cetius Faventinus, Marcus" .
+
+<http://lila-erc.eu/data/authors/id/a115> a crm:E39_Actor;
+  lila:endDate "0050-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0100-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Curtius Rufus, Quintus";
+  skos:altLabel "\"Curcio Rufo, Quinto\""@sp, "\"Curtius Rufus , Quintus\""@it, "\"Curtius Rufus, Quintus ca. 1./2. Jh.\""@de,
+    "\"Quinte-Curce\""@fr, "\"Quintus Curtius Rufus\""@la, "\"Quintus Curtius Rufus\""@mul;
+  skos:exactMatch <http://www.wikidata.org/entity/Q5959>;
+  skos:prefLabel "Curtius Rufus, Quintus" .
+
+<http://lila-erc.eu/data/authors/id/a116> a crm:E39_Actor;
+  lila:endDate "-0101-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "-0101-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Apicius";
+  skos:altLabel "Apicius"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q618599>;
+  skos:prefLabel "Apicius" .
+
+<http://lila-erc.eu/data/authors/id/a117> a crm:E39_Actor;
+  lila:endDate "-0008-01-01T00:00:00.000Z"^^xsd:dateTime, "-0008-11-25T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "-0065-01-01T00:00:00.000Z"^^xsd:dateTime, "-0065-12-06T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Horace";
+  skos:altLabel "\"Horace 0065-0008 av. J.-C.\""@fr, "\"Horace\""@en, "\"Horacio Flaco, Quinto\""@sp,
+    "\"Horatius Flaccus , Quintus\""@it, "\"Horatius Flaccus, Quintus v65-v8\""@de, "\"Quintus Horatius Flaccus\""@la,
+    "\"Quintus Horatius Flaccus\""@mul;
+  skos:exactMatch <http://www.wikidata.org/entity/Q6197>;
+  skos:prefLabel "Horace" .
+
+<http://lila-erc.eu/data/authors/id/a118> a crm:E39_Actor;
+  lila:endDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Cassius Felix";
+  skos:altLabel "\"Cassius Felix\""@en, "\"Cassius Felix\""@la, "\"Cassius Felix\""@mul;
+  skos:exactMatch <http://www.wikidata.org/entity/Q644086>;
+  skos:prefLabel "Cassius Felix" .
+
+<http://lila-erc.eu/data/authors/id/a119> a crm:E39_Actor;
+  lila:endDate "0850-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0800-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Thegan, Chorepiscopus of Trier, approximately 800-";
+  skos:altLabel "\"Degan of Treves\""@mul, "\"Thegan of Trier\""@en, "\"Theganus Treverensis\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q647013>;
+  skos:prefLabel "Thegan, Chorepiscopus of Trier, approximately 800-" .
+
+<http://lila-erc.eu/data/authors/id/a120> a crm:E39_Actor;
+  lila:endDate "0534-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0450-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Marcellinus, comes";
+  skos:altLabel "\"Marcellinus Comes -534\""@de, "\"Marcellinus Comes ....-0534?\""@fr,
+    "\"Marcellinus Comes\""@en, "\"Marcellinus Comes\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q653919>;
+  skos:prefLabel "Marcellinus, comes" .
+
+<http://lila-erc.eu/data/authors/id/a121> a crm:E39_Actor;
+  lila:endDate "0380-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Rufus, Sextus";
+  skos:altLabel "\"Avienus , Rufus Festus\""@it, "\"Festo, Rufo\""@sp, "\"Festus historicus 03..?-0379\""@fr,
+    "\"Festus\""@en, "\"Festus, Rufius -380\""@de, "\"Rufius Festus\""@la, "\"Rufus Festus\""@mul;
+  skos:exactMatch <http://www.wikidata.org/entity/Q666127>;
+  skos:prefLabel "Rufus, Sextus" .
+
+<http://lila-erc.eu/data/authors/id/a122> a crm:E39_Actor;
+  lila:endDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Nazarius (Panegyrist)";
+  skos:altLabel "\"Nazarius\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q670338>;
+  skos:prefLabel "Nazarius (Panegyrist)" .
+
+<http://lila-erc.eu/data/authors/id/a123> a crm:E39_Actor;
+  lila:endDate "0301-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Obsequens, Julius";
+  skos:altLabel "\"Iulius Obsequens\""@la, "\"Julius Obsequens\""@en, "\"Obsecuente, Julio\""@sp,
+    "\"Obsequens Julius\""@fr, "\"Obsequens, Iulius ca. 4. Jh.\""@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q682860>;
+  skos:prefLabel "Obsequens, Julius" .
+
+<http://lila-erc.eu/data/authors/id/a124> a crm:E39_Actor;
+  lila:endDate "0250-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0250-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Censorinus";
+  skos:altLabel "\"Censorino\""@sp, "\"Censorinus Grammaticus ca. 238\""@de, "\"Censorinus Grammaticus\""@la,
+    "\"Censorinus grammaticus\""@fr, "\"Censorinus\""@en, "\"Censorinus\""@mul;
+  skos:exactMatch <http://www.wikidata.org/entity/Q707449>;
+  skos:prefLabel "Censorinus" .
+
+<http://lila-erc.eu/data/authors/id/a125> a crm:E39_Actor;
+  lila:endDate "0364-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0290-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Victorinus, Marius";
+  skos:altLabel "\"Gaius Marius Victorinus\""@en, "\"Gaius Marius Victorinus\""@la,
+    "\"Marius Victorinus, Gaius 281-362\""@de, "\"Victorin l'Africain 0300?-0382?\""@fr,
+    "\"Victorino, Cayo Mario\""@sp, "\"Victorinus , Caius Marius\""@it, "\"Victorinus Afer\""@mul;
+  skos:exactMatch <http://www.wikidata.org/entity/Q708247>;
+  skos:prefLabel "Victorinus, Marius" .
+
+<http://lila-erc.eu/data/authors/id/a126> a crm:E39_Actor;
+  lila:endDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Arusianus Messius";
+  skos:altLabel "\"Arusianus Messius 4./5. Jh.\""@de, "\"Arusianus Messius\""@fr, "\"Arusianus Messius\""@it;
+  skos:exactMatch <http://www.wikidata.org/entity/Q716824>;
+  skos:prefLabel "Arusianus Messius" .
+
+<http://lila-erc.eu/data/authors/id/a127> a crm:E39_Actor;
+  lila:endDate "0017-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "-0043-03-18T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Ovid, 43 B.C.-17 A.D. or 18 A.D. ";
+  skos:altLabel "\"Ovid\""@en, "\"Ovide 0043 av. J.-C.-0017\""@fr, "\"Ovidius Naso , Publius\""@it,
+    "\"Ovidius Naso, Publius ca. v43 - 18\""@de, "\"Publius Ovidius Naso\""@la, "\"Publius Ovidius Naso\""@mul;
+  skos:exactMatch <http://www.wikidata.org/entity/Q7198>;
+  skos:prefLabel "Ovid, 43 B.C.-17 A.D. or 18 A.D. " .
+
+<http://lila-erc.eu/data/authors/id/a128> a crm:E39_Actor;
+  lila:endDate "0105-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0050-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Probus, Marcus Valerius";
+  skos:altLabel "\"Marcus Valerius Probus\""@la, "\"Marcus Valerius Probus\""@mul, "\"Probo, Marco Valerio\""@sp,
+    "\"Probus Marcus Valerius 0050-0099\""@fr, "\"Probus, Marcus Valerius ca. 20/30-105\""@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q722683>;
+  skos:prefLabel "Probus, Marcus Valerius" .
+
+<http://lila-erc.eu/data/authors/id/a129> a crm:E39_Actor;
+  lila:endDate "0350-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0350-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Calcidius";
+  skos:altLabel "\"Calcidio\""@sp, "\"Calcidius\""@en, "\"Chalcidius ca. 400 n. Chr.\""@de,
+    "\"Chalcidius\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q729244>;
+  skos:prefLabel "Calcidius" .
+
+<http://lila-erc.eu/data/authors/id/a130> a crm:E39_Actor;
+  lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Cledonius";
+  skos:altLabel "\"Cledonius\""@la, "\"Cledonius‏ ‎Constantinopolitanus Grammaticus\""@mul;
+  skos:exactMatch <http://www.wikidata.org/entity/Q747578>;
+  skos:prefLabel "Cledonius" .
+
+<http://lila-erc.eu/data/authors/id/a131> a crm:E39_Actor;
+  lila:endDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Nepotianus, Januarius";
+  skos:altLabel "\"Ianuarius Nepotianus\""@la, "\"Nepotianus Januarius 03..-0396\""@fr,
+    "\"Nepotianus, Januarius\""@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q765147>;
+  skos:prefLabel "Nepotianus, Januarius" .
+
+<http://lila-erc.eu/data/authors/id/a132> a crm:E39_Actor;
+  lila:endDate "0014-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "-0063-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Antonius Musa";
+  skos:altLabel "\"Antonius Musa\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q772773>;
+  skos:prefLabel "Antonius Musa" .
+
+<http://lila-erc.eu/data/authors/id/a133> a crm:E39_Actor;
+  lila:endDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Sallustius";
+  skos:altLabel "Sallustius"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q782401>;
+  skos:prefLabel "Sallustius" .
+
+<http://lila-erc.eu/data/authors/id/a134> a crm:E39_Actor;
+  lila:endDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Pelagonius";
+  skos:exactMatch <http://www.wikidata.org/entity/Q788340>;
+  skos:prefLabel "Pelagonius" .
+
+<http://lila-erc.eu/data/authors/id/a135> a crm:E39_Actor;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Vacca";
+  skos:exactMatch <http://www.wikidata.org/entity/Q7907918>;
+  skos:prefLabel "Vacca" .
+
+<http://lila-erc.eu/data/authors/id/a136> a crm:E39_Actor;
+  lila:endDate "0430-01-01T00:00:00.000Z"^^xsd:dateTime, "0430-08-29T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0354-01-01T00:00:00.000Z"^^xsd:dateTime, "0354-11-14T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Augustine, of Hippo, Saint, 354-430";
+  skos:altLabel "\"Agustín, Santo, Obispo de Hipona\""@sp, "\"Augustin saint 0354-0430\""@fr,
+    "\"Augustinus , Aurelius <santo>\""@it, "\"Augustinus Hipponensis\""@mul, "\"Augustinus, Aurelius 354-430\""@de,
+    "\"Aurelius Augustinus\""@la, "\"Saint Augustine of Hippo\""@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q8018>;
+  skos:prefLabel "Augustine, of Hippo, Saint, 354-430" .
+
+<http://lila-erc.eu/data/authors/id/a137> a crm:E39_Actor;
+  lila:startDate "0350-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Atilius Fortunatianus";
+  skos:exactMatch <http://www.wikidata.org/entity/Q8208327>;
+  skos:prefLabel "Atilius Fortunatianus" .
+
+<http://lila-erc.eu/data/authors/id/a138> a crm:E39_Actor;
+  lila:endDate "0079-01-01T00:00:00.000Z"^^xsd:dateTime, "0079-08-01T00:00:00.000Z"^^xsd:dateTime,
+    "0079-08-22T00:00:00.000Z"^^xsd:dateTime, "0079-08-23T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0020-01-01T00:00:00.000Z"^^xsd:dateTime, "0023-01-01T00:00:00.000Z"^^xsd:dateTime,
+    "0024-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Pliny, the Elder";
+  skos:altLabel "\"Gaius Plinius Secundus\""@la, "\"Pline l'Ancien 0023-0079\""@fr,
+    "\"Plinius Secundus , Gaius\""@it, "\"Plinius Secundus, Gaius 23-79\""@de, "\"Pliny the Elder\""@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q82778>;
+  skos:prefLabel "Pliny, the Elder" .
+
+<http://lila-erc.eu/data/authors/id/a139> a crm:E39_Actor;
+  lila:endDate "0337-01-01T00:00:00.000Z"^^xsd:dateTime, "0337-05-01T00:00:00.000Z"^^xsd:dateTime,
+    "0337-05-23T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0272-02-27T00:00:00.000Z"^^xsd:dateTime, "0274-01-01T00:00:00.000Z"^^xsd:dateTime,
+    "0274-02-27T00:00:00.000Z"^^xsd:dateTime, "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Constantine I, Emperor of Rome";
+  skos:altLabel "\"Constantin I empereur romain 0272-0337\""@fr, "\"Constantine the Great\""@en,
+    "\"Constantino I, Emperador de Roma\""@sp, "\"Flavius Valerius Aurelius Constantinus Augustus\""@la,
+    "\"Konstantin I. Römisches Reich, Kaiser ca. 280-337\""@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q8413>;
+  skos:prefLabel "Constantine I, Emperor of Rome" .
+
+<http://lila-erc.eu/data/authors/id/a140> a crm:E39_Actor;
+  lila:endDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Marcellus, Empiricus";
+  skos:altLabel "\"Marcellus Empiricus\""@en, "\"Marcellus Empiricus, Marcellus Burdigalensis\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q868078>;
+  skos:prefLabel "Marcellus, Empiricus" .
+
+<http://lila-erc.eu/data/authors/id/a141> a crm:E39_Actor;
+  lila:endDate "1240-01-01T00:00:00.000Z"^^xsd:dateTime, "1250-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "1170-01-01T00:00:00.000Z"^^xsd:dateTime, "1175-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Fibonacci";
+  skos:altLabel "Fibonacci"@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q8763>;
+  skos:prefLabel "Fibonacci" .
+
+<http://lila-erc.eu/data/authors/id/a142> a crm:E39_Actor;
+  lila:endDate "-0016-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "-0047-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Propertius, Sextus";
+  skos:altLabel "\"Properce 0050?-0015? av. J.-C.\""@fr, "\"Propercio, Sexto Aurelio\""@sp,
+    "\"Propertius\""@en, "\"Propertius, Sextus v50-v15\""@de, "\"Sextus Propertius\""@la,
+    "\"Sextus Propertius\""@mul;
+  skos:exactMatch <http://www.wikidata.org/entity/Q8827>;
+  skos:prefLabel "Propertius, Sextus" .
+
+<http://lila-erc.eu/data/authors/id/a143> a crm:E39_Actor;
+  lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Vinidarius";
+  skos:exactMatch <http://www.wikidata.org/entity/Q911087>;
+  skos:prefLabel "Vinidarius" .
+
+<http://lila-erc.eu/data/authors/id/a144> a crm:E39_Actor;
+  lila:endDate "0299-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0200-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Romanus, C. Julius";
+  skos:exactMatch <http://www.wikidata.org/entity/Q92158257>;
+  skos:prefLabel "Romanus, C. Julius" .
+
+<http://lila-erc.eu/data/authors/id/a145> a crm:E39_Actor;
+  lila:endDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0401-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Merobaudes, Flavius";
+  skos:altLabel "\"Flavius Merobaudes\""@en, "\"Flavius Merobaudes\""@la, "\"Merobaudes Flavius\""@fr,
+    "\"Merobaudes Hispanus\""@mul, "\"Merobaudes, Flavio\""@sp, "\"Merobaudes, Flavius -426\""@de;
+  skos:exactMatch <http://www.wikidata.org/entity/Q930459>;
+  skos:prefLabel "Merobaudes, Flavius" .
+
+<http://lila-erc.eu/data/authors/id/a146> a crm:E39_Actor;
+  lila:endDate "0554-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Fulgentius, Fabius Planciades";
+  skos:altLabel "\"Fabius Planciades Fulgentius Afer\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q932714>;
+  skos:prefLabel "Fulgentius, Fabius Planciades" .
+
+<http://lila-erc.eu/data/authors/id/a147> a crm:E39_Actor;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Scriptores historiae Augustae";
+  skos:altLabel "\"Scriptores historiae Augustae, Julius Capitolinus, Flavius Vopiscus, Aelius Lampridius , Aelius Spartianus, Pollio Trebellius, Gallicanus Valcacius\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q9334638>;
+  skos:prefLabel "Scriptores historiae Augustae" .
+
+<http://lila-erc.eu/data/authors/id/a148> a crm:E39_Actor;
+  lila:endDate "1274-01-01T00:00:00.000Z"^^xsd:dateTime, "1274-03-14T00:00:00.000Z"^^xsd:dateTime,
+    "1274-03-21T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "1225-01-01T00:00:00.000Z"^^xsd:dateTime, "1225-02-01T00:00:00.000Z"^^xsd:dateTime,
+    "1225-02-08T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Thomas, Aquinas, Saint";
+  skos:altLabel "\"Saint Thomas Aquinas\""@en, "\"Thomas de Aquino\""@la, "\"Tommaso d'Aquino\""@mul;
+  skos:exactMatch <http://www.wikidata.org/entity/Q9438>;
+  skos:prefLabel "Thomas, Aquinas, Saint" .
+
+<http://lila-erc.eu/data/authors/id/a149> a crm:E39_Actor;
+  lila:endDate "0200-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0101-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Granius Licinianus";
+  skos:altLabel "\"Granius Licinianus ca. 2. Jh.\""@de, "\"Granius Licinianus\""@fr,
+    "\"Granius Licinianus\""@la;
+  skos:exactMatch <http://www.wikidata.org/entity/Q975318>;
+  skos:prefLabel "Granius Licinianus" .
+
+<http://lila-erc.eu/data/authors/id/a150> a crm:E39_Actor;
+  lila:endDate "0399-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Iulius Rufinianus Ps.";
+  skos:prefLabel "Iulius Rufinianus Ps." .
+
+<http://lila-erc.eu/data/authors/id/a151> a crm:E39_Actor;
+  lila:endDate "0399-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0200-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Iulius Solinus";
+  skos:prefLabel "Iulius Solinus" .
+
+<http://lila-erc.eu/data/authors/id/a152> a crm:E39_Actor;
+  lila:endDate "0399-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Iulius Valerius Alexander Polemus";
+  skos:prefLabel "Iulius Valerius Alexander Polemus" .
+
+<http://lila-erc.eu/data/authors/id/a153> a crm:E39_Actor;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Lactantius Placidus (Ps.)";
+  skos:prefLabel "Lactantius Placidus (Ps.)" .
+
+<http://lila-erc.eu/data/authors/id/a154> a crm:E39_Actor;
+  lila:endDate "0499-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Macrobius Ambrosius Theodosius";
+  skos:prefLabel "Macrobius Ambrosius Theodosius" .
+
+<http://lila-erc.eu/data/authors/id/a155> a crm:E39_Actor;
+  lila:endDate "0399-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Mamertinus, Claudius";
+  skos:prefLabel "Mamertinus, Claudius" .
+
+<http://lila-erc.eu/data/authors/id/a156> a crm:E39_Actor;
+  lila:endDate "0599-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Martyrius";
+  skos:prefLabel "Martyrius" .
+
+<http://lila-erc.eu/data/authors/id/a157> a crm:E39_Actor;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "MGH%20Capitularia%20Complete";
+  skos:prefLabel "MGH%20Capitularia%20Complete" .
+
+<http://lila-erc.eu/data/authors/id/a158> a crm:E39_Actor;
+  lila:endDate "0399-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Palaemon (Ps.)";
+  skos:prefLabel "Palaemon (Ps.)" .
+
+<http://lila-erc.eu/data/authors/id/a159> a crm:E39_Actor;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Papiri(a)nus";
+  skos:prefLabel "Papiri(a)nus" .
+
+<http://lila-erc.eu/data/authors/id/a160> a crm:E39_Actor;
+  lila:endDate "0699-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0600-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Philargirius (Ps.)";
+  skos:prefLabel "Philargirius (Ps.)" .
+
+<http://lila-erc.eu/data/authors/id/a161> a crm:E39_Actor;
+  lila:endDate "0499-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Philargyrius / Philagrius";
+  skos:prefLabel "Philargyrius / Philagrius" .
+
+<http://lila-erc.eu/data/authors/id/a162> a crm:E39_Actor;
+  lila:endDate "0399-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Priscianus Theodorus (Ps.)";
+  skos:prefLabel "Priscianus Theodorus (Ps.)" .
+
+<http://lila-erc.eu/data/authors/id/a163> a crm:E39_Actor;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "ps. Phocas";
+  skos:prefLabel "ps. Phocas" .
+
+<http://lila-erc.eu/data/authors/id/a164> a crm:E39_Actor;
+  lila:endDate "0272-02-27T00:00:00.000Z"^^xsd:dateTime, "0274-01-01T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Ps. Sergius";
+  skos:prefLabel "Ps. Sergius" .
+
+<http://lila-erc.eu/data/authors/id/a165> a crm:E39_Actor;
+  lila:endDate "0599-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "pseudo-Agennius Vrbicus";
+  skos:prefLabel "pseudo-Agennius Vrbicus" .
+
+<http://lila-erc.eu/data/authors/id/a166> a crm:E39_Actor;
+  lila:endDate "0149-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0100-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Scaurus";
+  skos:prefLabel "Scaurus" .
+
+<http://lila-erc.eu/data/authors/id/a167> a crm:E39_Actor;
+  lila:endDate "0499-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Sergius (Ps.)";
+  skos:prefLabel "Sergius (Ps.)" .
+
+<http://lila-erc.eu/data/authors/id/a168> a crm:E39_Actor;
+  lila:endDate "0499-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Sergius (Ps.-Cassiodorus)";
+  skos:prefLabel "Sergius (Ps.-Cassiodorus)" .
+
+<http://lila-erc.eu/data/authors/id/a169> a crm:E39_Actor;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Seuerus";
+  skos:prefLabel "Seuerus" .
+
+<http://lila-erc.eu/data/authors/id/a170> a crm:E39_Actor;
+  lila:endDate "0499-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Theodorus Priscianus (Ps.)";
+  skos:prefLabel "Theodorus Priscianus (Ps.)" .
+
+<http://lila-erc.eu/data/authors/id/a171> a crm:E39_Actor;
+  lila:endDate "0399-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Victorinus (Ps.)";
+  skos:prefLabel "Victorinus (Ps.)" .
+
+<http://lila-erc.eu/data/authors/id/a172> a crm:E39_Actor;
+  lila:endDate "0113-12-31T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0061-01-01T00:00:00.000Z"^^xsd:dateTime, "0062-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Pliny, the Younger";
+  skos:altLabel "\"C. Plinius Caecilius Secundus\""@la, "\"Gaius Plinius Caecilius Secundus\""@mul,
+    "\"Pline le Jeune 0061?-0114?\""@fr, "\"Plinio Cecilio Segundo, Cayo\""@sp, "\"Plinius Caecilius Secundus , Gaius\""@it,
+    "\"Plinius Caecilius Secundus, Gaius 61-114\""@de, "\"Pliny the Younger\""@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q168707>;
+  skos:prefLabel "Pliny, the Younger" .
+
+<http://lila-erc.eu/data/authors/id/a173> a crm:E39_Actor;
+  lila:endDate "0419-12-31T00:00:00.000Z"^^xsd:dateTime, "0420-09-20T00:00:00.000Z"^^xsd:dateTime;
+  lila:startDate "0345-01-01T00:00:00.000Z"^^xsd:dateTime, "0347-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:isPartOf lilaAuthors:Gazetteer;
+  rdfs:label "Jerome, Saint, 419 or 420";
+  skos:altLabel "\"Eusebius Sophronius Hieronymus\""@la, "\"Hieronymus <santo>\""@it,
+    "\"Hieronymus Stridonensis\""@mul, "\"Hieronymus, Sophronius Eusebius 345-420\""@de,
+    "\"Jerónimo, Santo\""@sp, "\"Jérôme saint 0345?-0420\""@fr, "\"Saint Jerome\""@en;
+  skos:exactMatch <http://www.wikidata.org/entity/Q44248>;
+  skos:prefLabel "Jerome, Saint, 419 or 420" .
