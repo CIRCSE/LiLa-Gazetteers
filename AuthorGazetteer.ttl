@@ -89,6 +89,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a11> a crm:E39_Actor;
   lila:endDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0085b:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Charisius, Flavius Sosipater";
   skos:altLabel "\"Carisio, Flavio Sosípatro\""@sp, "\"Charisius Flavius Sosipater 03..-03..\""@fr,
@@ -100,6 +101,7 @@ lilaAuthors:Gazetteer a void:Dataset;
   lila:endDate "0524-01-01T00:00:00.000Z"^^xsd:dateTime, "0524-10-27T00:00:00.000Z"^^xsd:dateTime,
     "0525-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0475-01-01T00:00:00.000Z"^^xsd:dateTime, "0480-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0058:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Boethius, -524";
   skos:altLabel "\"Anicius Manlius Severinus Boethius\""@la, "\"Anicius Manlius Severinus Boethius\""@mul,
@@ -112,6 +114,7 @@ lilaAuthors:Gazetteer a void:Dataset;
   lila:startDate "-0100-01-01T00:00:00.000Z"^^xsd:dateTime, "-0100-07-01T00:00:00.000Z"^^xsd:dateTime,
     "-0100-07-10T00:00:00.000Z"^^xsd:dateTime, "-0100-07-11T00:00:00.000Z"^^xsd:dateTime,
     "-0102-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi0448:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Caesar, Julius";
   skos:altLabel "\"Caesar, Gaius Iulius v100-v44\""@de, "\"César Jules 0100-0044 av. J.-C.\""@fr,
@@ -122,6 +125,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a14> a crm:E39_Actor;
   lila:endDate "0250-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0200-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0030b:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Aquila, Romanus";
   skos:altLabel "\"Aquila Romanus 02..?-02..?\""@fr, "\"Aquila Romanus 3. Jh.\""@de,
@@ -133,6 +137,7 @@ lilaAuthors:Gazetteer a void:Dataset;
   lila:endDate "1321-01-01T00:00:00.000Z"^^xsd:dateTime, "1321-09-21T00:00:00.000Z"^^xsd:dateTime,
     "1321-09-22T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "1265-01-01T00:00:00.000Z"^^xsd:dateTime, "1265-06-06T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0106";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Dante Alighieri, 1265-1321";
   skos:altLabel "\"Dante Alighieri\""@en, "\"Dantes Aligerius\""@la, "\"Durante degli Alighieri\""@mul;
@@ -151,6 +156,7 @@ lilaAuthors:Gazetteer a void:Dataset;
     "-0018-01-01T00:00:00.000Z"^^xsd:dateTime, "-0019-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "-0050-01-01T00:00:00.000Z"^^xsd:dateTime, "-0051-01-01T00:00:00.000Z"^^xsd:dateTime,
     "-0054-01-01T00:00:00.000Z"^^xsd:dateTime, "-0055-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi0660:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Tibullus";
   skos:altLabel "\"Albius Tibullus\""@la, "\"Tibulle 0050?-0018? av. J.-C.\""@fr, "\"Tibullus\""@en,
@@ -177,6 +183,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a20> a crm:E39_Actor;
   lila:endDate "0399-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0200-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0248c:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Sacerdos, Marius Plotius";
   skos:altLabel "\"Marius Plotius Sacerdos\""@en, "\"Marius Plotius Sacerdos\""@la,
@@ -187,6 +194,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a21> a crm:E39_Actor;
   lila:endDate "0599-12-31T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0121a:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Eutyches";
   skos:altLabel "\"Eutyches Grammaticus ca. 6. Jh.\""@de, "\"Eutyches Grammaticus\""@la;
@@ -213,6 +221,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a24> a crm:E39_Actor;
   lila:endDate "0199-12-31T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0100-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi1374:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Velius Longus";
   skos:altLabel "\"Velius Longus ca. 2. Jh.\""@de, "\"Velius Longus\""@la;
@@ -241,6 +250,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a27> a crm:E39_Actor;
   lila:endDate "0330-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0250-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi2123:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Porfyrius, P. Optatianus";
   skos:altLabel "\"Optaciano Porfirio, Publilio\""@sp, "\"Optatianus Porfyrius, Publilius ca. ca.260/270-ca.334\""@de,
@@ -285,6 +295,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a32> a crm:E39_Actor;
   lila:endDate "0599-12-31T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0119a:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Eugraphius";
   skos:altLabel "\"Eugraphius ca. 6. Jh.\""@de;
@@ -294,6 +305,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a33> a crm:E39_Actor;
   lila:endDate "0311-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0260-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0120a:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Eumenius, of Autun";
   skos:altLabel "\"Eumenius \""@en, "\"Eumenius Augustodunensis\""@mul, "\"Eumenius Panegyricus ca. um 300\""@de,
@@ -304,6 +316,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a34> a crm:E39_Actor;
   lila:endDate "-0019-01-01T00:00:00.000Z"^^xsd:dateTime, "-0019-09-19T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "-0070-01-01T00:00:00.000Z"^^xsd:dateTime, "-0070-10-13T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi0690:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Virgil";
   skos:altLabel "\"Publius Vergilius Maro\""@la, "\"Vergil\""@en, "\"Vergilius Maro , Publius\""@it,
@@ -314,6 +327,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a35> a crm:E39_Actor;
   lila:endDate "0450-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0350-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0122c:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Favonius Eulogius";
   skos:exactMatch <http://www.wikidata.org/entity/Q1398914>;
@@ -322,6 +336,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a36> a crm:E39_Actor;
   lila:endDate "0138-07-09T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0076-01-22T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi1260:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Hadrian, Emperor of Rome";
   skos:altLabel "\"Hadrian Römisches Reich, Kaiser 76-138\""@de, "\"Hadrian\""@en,
@@ -348,6 +363,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 
 <http://lila-erc.eu/data/authors/id/a39> a crm:E39_Actor;
   lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0128e:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Philocalus, Furius Dionysius, active 4th century";
   skos:altLabel "\"Furius Dionysius Philocalus\""@la, "\"Furius Dionysius Philocalus\""@mul,
@@ -358,6 +374,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a40> a crm:E39_Actor;
   lila:endDate "-0043-12-01T00:00:00.000Z"^^xsd:dateTime, "-0043-12-05T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "-0107-12-31T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi0474:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Cicero, Marcus Tullius";
   skos:altLabel "\"Cicero , Marcus Tullius\""@it, "\"Cicero, Marcus Tullius v106-v43\""@de,
@@ -370,6 +387,7 @@ lilaAuthors:Gazetteer a void:Dataset;
   lila:endDate "0840-01-01T00:00:00.000Z"^^xsd:dateTime, "0840-03-18T00:00:00.000Z"^^xsd:dateTime,
     "0840-03-22T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0774-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0112";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Einhard";
   skos:altLabel "\"Einhard\""@en, "\"Einhardus \""@la;
@@ -389,6 +407,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a43> a crm:E39_Actor;
   lila:endDate "0499-12-31T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0143a:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Grillius (Grammarian)";
   skos:altLabel "\"Grilio\""@sp, "\"Grillius\""@en, "\"Grillius\""@la;
@@ -408,6 +427,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a45> a crm:E39_Actor;
   lila:endDate "0514-07-21T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0460-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0270b:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Symmachus, Pope";
   skos:altLabel "\"Pope Symmachus\""@en, "\"Symmachus Papa\""@mul, "\"Symmachus Papst -514\""@de,
@@ -418,6 +438,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a46> a crm:E39_Actor;
   lila:endDate "-0054-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "-0084-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi0472";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Catullus, Gaius Valerius";
   skos:altLabel "\"Catullus\""@en, "\"Gaius Valerius Catullus\""@la;
@@ -427,6 +448,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a47> a crm:E39_Actor;
   lila:endDate "0636-01-01T00:00:00.000Z"^^xsd:dateTime, "0636-04-07T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0560-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0159:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Isidore, of Seville, Saint";
   skos:altLabel "\"Isidore de Séville saint 0560?-0636\""@fr, "\"Isidoro, Santo, Arzobispo de Sevilla\""@sp,
@@ -437,6 +459,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a48> a crm:E39_Actor;
   lila:endDate "0395-01-01T00:00:00.000Z"^^xsd:dateTime, "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0320-01-01T00:00:00.000Z"^^xsd:dateTime, "0330-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0023:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Ammianus Marcellinus";
   skos:altLabel "\"Amiano Marcelino\""@sp, "\"Ammianus Marcellinus 330-395\""@de, "\"Ammianus Marcellinus\""@en,
@@ -446,6 +469,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 
 <http://lila-erc.eu/data/authors/id/a49> a crm:E39_Actor;
   lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0171a:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Lactantius Placidus";
   skos:altLabel "\"Lactancio Placido\""@sp, "\"Lactantius Placidus ca. 6. Jh.\""@de,
@@ -457,6 +481,7 @@ lilaAuthors:Gazetteer a void:Dataset;
   lila:endDate "-0147-01-01T00:00:00.000Z"^^xsd:dateTime, "-0149-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "-0232-01-01T00:00:00.000Z"^^xsd:dateTime, "-0234-01-01T00:00:00.000Z"^^xsd:dateTime,
     "-0235-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi0022:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Cato, Marcus Porcius";
   skos:altLabel "\"Cato the Elder\""@en, "\"Cato, Marcus Porcius Censorius v234-v149\""@de,
@@ -476,6 +501,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a52> a crm:E39_Actor;
   lila:endDate "0350-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0213a:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Nonius Marcellus";
   skos:altLabel "\"Nonio Marcelo\""@sp, "\"Nonius Marcellus 03..-03..\""@fr, "\"Nonius Marcellus ca. 4. Jh.\""@de,
@@ -495,6 +521,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a54> a crm:E39_Actor;
   lila:endDate "0065-04-28T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0039-11-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi0917:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Lucan";
   skos:altLabel "\"Lucain 0039-0065\""@fr, "\"Lucan\""@en, "\"Lucano, Marco Anneo\""@sp,
@@ -505,6 +532,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a55> a crm:E39_Actor;
   lila:endDate "0575-01-01T00:00:00.000Z"^^xsd:dateTime, "0583-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0487-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0077:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Cassiodorus, Senator";
   skos:altLabel "\"Casiodoro, Magno Aurelio\""@sp, "\"Cassiodore 0490?-0580?\""@fr,
@@ -516,6 +544,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a56> a crm:E39_Actor;
   lila:endDate "0140-01-01T00:00:00.000Z"^^xsd:dateTime, "0200-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0055-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi1276:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Juvenal";
   skos:altLabel "\"Decimus Iunius Iuvenalis\""@la, "\"Iuvenalis , Decimus Iunius\""@it,
@@ -537,6 +566,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a58> a crm:E39_Actor;
   lila:endDate "0399-12-31T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0244b:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Rufinianus, Julius";
   skos:altLabel "\"Iulius Rufinianus\""@la, "\"Julius Rufinianus\""@en;
@@ -546,6 +576,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a59> a crm:E39_Actor;
   lila:endDate "0065-04-10T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "-0005-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi1017:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Seneca, Lucius Annaeus, approximately 4 B.C.-65 A.D.";
   skos:altLabel "\"Lucius Annaeus Seneca\""@la, "\"Lucius Annaeus Seneca\""@mul, "\"Seneca , Lucius Annaeus <4 a. C.-65>\""@it,
@@ -555,6 +586,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 
 <http://lila-erc.eu/data/authors/id/a60> a crm:E39_Actor;
   lila:startDate "0101-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0167:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Justinus, Marcus Junianus";
   skos:altLabel "\"Iustinus\""@mul, "\"Iustinus, Marcus Iunianus ca. 3. Jh.\""@de, "\"Justin 02..-02.. historien\""@fr,
@@ -566,6 +598,7 @@ lilaAuthors:Gazetteer a void:Dataset;
   lila:endDate "0120-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0050-01-01T00:00:00.000Z"^^xsd:dateTime, "0055-01-01T00:00:00.000Z"^^xsd:dateTime,
     "0056-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi1351:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Tacitus, Cornelius";
   skos:altLabel "\"Cornelius Tacitus\""@la, "\"Publius/Gaius Cornelius Tacitus\""@mul,
@@ -577,6 +610,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a62> a crm:E39_Actor;
   lila:endDate "0200-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0100-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi1266:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Hyginus, Gromaticus";
   skos:altLabel "\"Higino Gromatico\""@sp, "\"Hyginus Gromaticus ca. 1./2. Jh.\""@de,
@@ -587,6 +621,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a63> a crm:E39_Actor;
   lila:endDate "0392-01-01T00:00:00.000Z"^^xsd:dateTime, "0395-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0309-01-01T00:00:00.000Z"^^xsd:dateTime, "0310-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0045:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Ausonius, Decimus Magnus";
   skos:altLabel "\"Ausone 0310?-0395?\""@fr, "\"Ausonius , Decimus Magnus\""@it, "\"Ausonius, Decimus Magnus 310-395\""@de,
@@ -605,6 +640,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a65> a crm:E39_Actor;
   lila:endDate "0380-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0315-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0110:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Donatus, Aelius";
   skos:altLabel "\"Aelius Donatus\""@en, "\"Aelius Donatus\""@la, "\"Aelius Donatus\""@mul,
@@ -623,6 +659,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a67> a crm:E39_Actor;
   lila:endDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi2305:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Aurelianus, Caelius";
   skos:altLabel "\"Aureliano, Celio\""@sp, "\"Caelius Aurelianus 04..-04..\""@fr, "\"Caelius Aurelianus ca. 4./5. Jh.\""@de,
@@ -642,6 +679,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a69> a crm:E39_Actor;
   lila:endDate "0390-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0320-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0043:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Victor, Sextus Aurelius";
   skos:altLabel "\"Aurelius Victor 03..-03..\""@fr, "\"Aurelius Victor, Sextus 320-390\""@de,
@@ -652,6 +690,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a70> a crm:E39_Actor;
   lila:endDate "0399-12-31T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0270a:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Sulpicius, Victor";
   skos:altLabel "\"Sulpicius, Victor\""@en, "\"Victor Sulpicius\""@la;
@@ -661,6 +700,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a71> a crm:E39_Actor;
   lila:endDate "0499-12-31T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0259b:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Severianus, Julius";
   skos:altLabel "\"Iulius Severianus ca. 5. Jh.\""@de, "\"Iulius Severianus\""@la, "\"Severiano, Julio\""@sp;
@@ -670,6 +710,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a72> a crm:E39_Actor;
   lila:endDate "0499-12-31T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0039c:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Audax";
   skos:altLabel "\"Audax Grammaticus 5./6. Jht.\""@de, "\"Audax Grammaticus\""@la, "\"Audax\""@en;
@@ -679,6 +720,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a73> a crm:E39_Actor;
   lila:endDate "0499-12-31T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0096a:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Consentius (Grammarian)";
   skos:altLabel "\"Consencio, Publio\""@sp, "\"Consentius (Grammarian)\""@en, "\"Consentius Gallus\""@la,
@@ -708,6 +750,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a76> a crm:E39_Actor;
   lila:endDate "0370-01-01T00:00:00.000Z"^^xsd:dateTime, "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0310-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0121:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Eutropius, active 4th century";
   skos:altLabel "\"Eutrope 03..?-03..?\""@fr, "\"Eutropio, Flavio\""@sp, "\"Eutropius ca. 4. Jh\""@de,
@@ -718,6 +761,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a77> a crm:E39_Actor;
   lila:endDate "0140-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0070-01-01T00:00:00.000Z"^^xsd:dateTime, "0074-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi1242:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Florus, Lucius Annaeus";
   skos:altLabel "\"Floro, Lucio Anneo\""@sp, "\"Florus, Lucius Annaeus ca. 2. Jh.\""@de,
@@ -728,6 +772,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a78> a crm:E39_Actor;
   lila:endDate "0450-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0350-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0120b:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Exuperantius, Julius";
   skos:altLabel "\"Exsuperantius Julius\""@fr, "\"Exuperancio, Julio\""@sp, "\"Exuperantius, Iulius ca. 4./5.Jh.\""@de,
@@ -738,6 +783,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a79> a crm:E39_Actor;
   lila:endDate "0350-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0350-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0166b:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Julius Victor, C. (Gaius)";
   skos:altLabel "\"Gaius Iulius Victor\""@la, "\"Gaius Julius Victor\""@en, "\"Victor Julius\""@fr,
@@ -756,6 +802,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a81> a crm:E39_Actor;
   lila:endDate "0062-11-22T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0034-12-02T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi0969:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Persius";
   skos:altLabel "\"Aulus Persius Flaccus\""@la, "\"Aulus Persius Flaccus\""@mul, "\"Perse 0034-0062\""@fr,
@@ -767,6 +814,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a82> a crm:E39_Actor;
   lila:endDate "0449-12-31T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0228a:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Phocas";
   skos:altLabel "\"Focas\""@mul, "\"Phocas Grammaticus ca. 3./4. Jh., nach LAW abweichend 5. Jh.\""@de,
@@ -786,6 +834,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a84> a crm:E39_Actor;
   lila:endDate "0534-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0450-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0028b:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Anthimus";
   skos:altLabel "\"Anthimus Medicus ca. um 511/34\""@de;
@@ -795,6 +844,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a85> a crm:E39_Actor;
   lila:endDate "0428-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0360-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0192a";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Martianus Capella";
   skos:altLabel "\"Martianus Capella\""@en, "\"Martianus Mineus Felix Capella\""@la;
@@ -813,6 +863,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a87> a crm:E39_Actor;
   lila:endDate "-0043-01-01T00:00:00.000Z"^^xsd:dateTime, "-0043-04-19T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "-0090-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi0530:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Hirtius, Aulus";
   skos:altLabel "\"Aulus Hirtius\""@la, "\"Aulus Hirtius\""@mul, "\"Hircio, Aulo\""@sp,
@@ -823,6 +874,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a88> a crm:E39_Actor;
   lila:endDate "0301-01-01T00:00:00.000Z"^^xsd:dateTime, "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0363-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi2349:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Servius, active 4th century";
   skos:altLabel "\"Maurus Servius Honoratus\""@en, "\"Maurus Servius Honoratus\""@la,
@@ -833,6 +885,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a89> a crm:E39_Actor;
   lila:endDate "0402-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0345-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi2301:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Symmachus, Quintus Aurelius, approximately 340-402";
   skos:altLabel "\"Q. Aurelius Memmius Symmachus\""@la, "\"Symmachus, Quintus Aurelius ca. 340-402\""@de;
@@ -842,6 +895,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a90> a crm:E39_Actor;
   lila:endDate "0150-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0101-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi1342:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Siculus Flaccus";
   skos:altLabel "\"Siculus Flaccus ca. 2. Jh.\""@de, "\"Siculus Flaccus\""@fr, "\"Siculus Flaccus\""@it,
@@ -852,6 +906,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a91> a crm:E39_Actor;
   lila:endDate "0375-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0305-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0047:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Avienus, Rufius Festus";
   skos:altLabel "\"Avieno, Rufo Festo\""@sp, "\"Avienus Rufus Festus 0305?-0375?\""@fr,
@@ -863,6 +918,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a92> a crm:E39_Actor;
   lila:endDate "0360-01-01T00:00:00.000Z"^^xsd:dateTime, "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0314-01-01T00:00:00.000Z"^^xsd:dateTime, "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0123a:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Firmicus Maternus, Julius";
   skos:altLabel "\"Firmicus Maternus Julius\""@fr, "\"Firmicus Maternus, Iulius ca. 335/350\""@de,
@@ -874,6 +930,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a93> a crm:E39_Actor;
   lila:endDate "0399-12-31T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0220:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Paris, Julius";
   skos:altLabel "\"Iulius Paris\""@la, "\"Julius Paris\""@en, "\"Paris Julius\""@fr,
@@ -891,6 +948,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a95> a crm:E39_Actor;
   lila:endDate "0450-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0287:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Vegetius Renatus, Flavius";
   skos:altLabel "\"Flavius Vegetius Renatus\""@la, "\"Vegetius Renatus, Flavius 383-450\""@de,
@@ -901,6 +959,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a96> a crm:E39_Actor;
   lila:endDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0291f:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Vibius, Sequester";
   skos:altLabel "\"Vibio Secuestre\""@sp, "\"Vibius Sequester ca. 4/5. Jh\""@de, "\"Vibius Sequester\""@la;
@@ -910,6 +969,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a97> a crm:E39_Actor;
   lila:endDate "0076-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "-0009-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi0803:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Asconius Pedianus, Quintus";
   skos:altLabel "\"Asconius Pedianus Quintus 0009 av. J.-C.?-0076?\""@fr, "\"Asconius Pedianus, Quintus v9-76\""@de,
@@ -939,6 +999,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a100> a crm:E39_Actor;
   lila:endDate "0250-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0100-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi1363";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Aemilius Asper, active 2nd century";
   skos:altLabel "\"Aemilius Asper\""@la;
@@ -948,6 +1009,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a101> a crm:E39_Actor;
   lila:endDate "-0055-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "-0094-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi0550:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Lucretius Carus, Titus";
   skos:altLabel "\"Lucrecio Caro, Tito\""@sp, "\"Lucretius Carus, Titus v94-v55\""@de,
@@ -958,6 +1020,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a102> a crm:E39_Actor;
   lila:endDate "-0184-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "-0250-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi0119:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Plautus, Titus Maccius";
   skos:altLabel "\"Plaute 0254-0184 av. J.-C.\""@fr, "\"Plauto, Tito Maccio\""@sp, "\"Plautus , Titus Maccius\""@it,
@@ -969,6 +1032,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a103> a crm:E39_Actor;
   lila:endDate "0066-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0027-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi0972:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Petronius Arbiter";
   skos:altLabel "\"Petronio Árbitro, Cayo\""@sp, "\"Petronius Arbiter -66\""@de, "\"Petronius Arbiter\""@it,
@@ -979,6 +1043,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a104> a crm:E39_Actor;
   lila:endDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0350-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0108a:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Dictys, Cretensis";
   skos:altLabel "\"Dictis de Creta\""@sp, "\"Dictys : Cretensis\""@it, "\"Dictys Cretensis ca. 1./3. Jh.\""@de,
@@ -989,6 +1054,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a105> a crm:E39_Actor;
   lila:endDate "0050-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0050-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi1100:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Calpurnius Flaccus";
   skos:altLabel "\"Calpurnio Flaco\""@sp, "\"Calpurnius Flaccus 00..-01..\""@fr, "\"Calpurnius Flaccus ca. 2. Jh.\""@de,
@@ -1008,6 +1074,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a107> a crm:E39_Actor;
   lila:endDate "0450-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0450-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0013c:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Agroecius, Bishop of Sens";
   skos:altLabel "\"Agroecius\""@it;
@@ -1027,6 +1094,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 
 <http://lila-erc.eu/data/authors/id/a109> a crm:E39_Actor;
   lila:startDate "0150-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi1518:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Terentianus Maurus";
   skos:altLabel "\"Maurus Terentianus\""@la, "\"Terenciano Mauro\""@sp, "\"Terentianus Maurus 01..-01..\""@fr,
@@ -1037,6 +1105,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a110> a crm:E39_Actor;
   lila:endDate "0599-12-31T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0113c:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Emporius, Orator";
   skos:altLabel "\"Emporius Rhetor ca. 5.-6. Jh\""@de, "\"Emporius\""@la, "\"Emporius, Orator/Rhetor\""@en;
@@ -1046,6 +1115,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a111> a crm:E39_Actor;
   lila:endDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0450-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0107:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Dares, Phrygius";
   skos:altLabel "\"Dares Phrygius\""@fr, "\"Dares Phrygius\""@la;
@@ -1074,6 +1144,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a114> a crm:E39_Actor;
   lila:endDate "0201-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0201-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0085a:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Cetius Faventinus, Marcus";
   skos:altLabel "\"Cetius Faventinus Marcus\""@fr, "\"Marcus Cetius Faventinus\""@la,
@@ -1084,6 +1155,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a115> a crm:E39_Actor;
   lila:endDate "0050-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0100-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi0860:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Curtius Rufus, Quintus";
   skos:altLabel "\"Curcio Rufo, Quinto\""@sp, "\"Curtius Rufus , Quintus\""@it, "\"Curtius Rufus, Quintus ca. 1./2. Jh.\""@de,
@@ -1103,6 +1175,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a117> a crm:E39_Actor;
   lila:endDate "-0008-01-01T00:00:00.000Z"^^xsd:dateTime, "-0008-11-25T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "-0065-01-01T00:00:00.000Z"^^xsd:dateTime, "-0065-12-06T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi0893:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Horace";
   skos:altLabel "\"Horace 0065-0008 av. J.-C.\""@fr, "\"Horace\""@en, "\"Horacio Flaco, Quinto\""@sp,
@@ -1114,6 +1187,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a118> a crm:E39_Actor;
   lila:endDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0077a:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Cassius Felix";
   skos:altLabel "\"Cassius Felix\""@en, "\"Cassius Felix\""@la, "\"Cassius Felix\""@mul;
@@ -1132,6 +1206,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a120> a crm:E39_Actor;
   lila:endDate "0534-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0450-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0190:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Marcellinus, comes";
   skos:altLabel "\"Marcellinus Comes -534\""@de, "\"Marcellinus Comes ....-0534?\""@fr,
@@ -1141,6 +1216,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 
 <http://lila-erc.eu/data/authors/id/a121> a crm:E39_Actor;
   lila:endDate "0380-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0244f:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Rufus, Sextus";
   skos:altLabel "\"Avienus , Rufus Festus\""@it, "\"Festo, Rufo\""@sp, "\"Festus historicus 03..?-0379\""@fr,
@@ -1160,6 +1236,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a123> a crm:E39_Actor;
   lila:endDate "0301-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0214:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Obsequens, Julius";
   skos:altLabel "\"Iulius Obsequens\""@la, "\"Julius Obsequens\""@en, "\"Obsecuente, Julio\""@sp,
@@ -1170,6 +1247,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a124> a crm:E39_Actor;
   lila:endDate "0250-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0250-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0084:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Censorinus";
   skos:altLabel "\"Censorino\""@sp, "\"Censorinus Grammaticus ca. 238\""@de, "\"Censorinus Grammaticus\""@la,
@@ -1180,6 +1258,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a125> a crm:E39_Actor;
   lila:endDate "0364-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0290-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0292a:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Victorinus, Marius";
   skos:altLabel "\"Gaius Marius Victorinus\""@en, "\"Gaius Marius Victorinus\""@la,
@@ -1200,6 +1279,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a127> a crm:E39_Actor;
   lila:endDate "0017-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "-0043-03-18T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi0959:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Ovid, 43 B.C.-17 A.D. or 18 A.D. ";
   skos:altLabel "\"Ovid\""@en, "\"Ovide 0043 av. J.-C.-0017\""@fr, "\"Ovidius Naso , Publius\""@it,
@@ -1210,6 +1290,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a128> a crm:E39_Actor;
   lila:endDate "0105-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0050-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi0996:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Probus, Marcus Valerius";
   skos:altLabel "\"Marcus Valerius Probus\""@la, "\"Marcus Valerius Probus\""@mul, "\"Probo, Marco Valerio\""@sp,
@@ -1220,6 +1301,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a129> a crm:E39_Actor;
   lila:endDate "0350-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0350-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi2028:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Calcidius";
   skos:altLabel "\"Calcidio\""@sp, "\"Calcidius\""@en, "\"Chalcidius ca. 400 n. Chr.\""@de,
@@ -1238,6 +1320,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a131> a crm:E39_Actor;
   lila:endDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0210a:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Nepotianus, Januarius";
   skos:altLabel "\"Ianuarius Nepotianus\""@la, "\"Nepotianus Januarius 03..-0396\""@fr,
@@ -1272,6 +1355,7 @@ lilaAuthors:Gazetteer a void:Dataset;
   skos:prefLabel "Pelagonius" .
 
 <http://lila-erc.eu/data/authors/id/a135> a crm:E39_Actor;
+  dct:identifier "urn:cts:latinLit:stoa0285c:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Vacca";
   skos:exactMatch <http://www.wikidata.org/entity/Q7907918>;
@@ -1280,6 +1364,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a136> a crm:E39_Actor;
   lila:endDate "0430-01-01T00:00:00.000Z"^^xsd:dateTime, "0430-08-29T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0354-01-01T00:00:00.000Z"^^xsd:dateTime, "0354-11-14T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi2468:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Augustine, of Hippo, Saint, 354-430";
   skos:altLabel "\"Agustín, Santo, Obispo de Hipona\""@sp, "\"Augustin saint 0354-0430\""@fr,
@@ -1290,6 +1375,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 
 <http://lila-erc.eu/data/authors/id/a137> a crm:E39_Actor;
   lila:startDate "0350-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0039b:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Atilius Fortunatianus";
   skos:exactMatch <http://www.wikidata.org/entity/Q8208327>;
@@ -1300,6 +1386,7 @@ lilaAuthors:Gazetteer a void:Dataset;
     "0079-08-22T00:00:00.000Z"^^xsd:dateTime, "0079-08-23T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0020-01-01T00:00:00.000Z"^^xsd:dateTime, "0023-01-01T00:00:00.000Z"^^xsd:dateTime,
     "0024-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi0978:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Pliny, the Elder";
   skos:altLabel "\"Gaius Plinius Secundus\""@la, "\"Pline l'Ancien 0023-0079\""@fr,
@@ -1312,6 +1399,7 @@ lilaAuthors:Gazetteer a void:Dataset;
     "0337-05-23T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0272-02-27T00:00:00.000Z"^^xsd:dateTime, "0274-01-01T00:00:00.000Z"^^xsd:dateTime,
     "0274-02-27T00:00:00.000Z"^^xsd:dateTime, "0300-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0098:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Constantine I, Emperor of Rome";
   skos:altLabel "\"Constantin I empereur romain 0272-0337\""@fr, "\"Constantine the Great\""@en,
@@ -1323,6 +1411,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a140> a crm:E39_Actor;
   lila:endDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0400-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0190a:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Marcellus, Empiricus";
   skos:altLabel "\"Marcellus Empiricus\""@en, "\"Marcellus Empiricus, Marcellus Burdigalensis\""@la;
@@ -1341,6 +1430,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a142> a crm:E39_Actor;
   lila:endDate "-0016-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "-0047-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi0620:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Propertius, Sextus";
   skos:altLabel "\"Properce 0050?-0015? av. J.-C.\""@fr, "\"Propercio, Sexto Aurelio\""@sp,
@@ -1367,6 +1457,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a145> a crm:E39_Actor;
   lila:endDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0401-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0201b:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Merobaudes, Flavius";
   skos:altLabel "\"Flavius Merobaudes\""@en, "\"Flavius Merobaudes\""@la, "\"Merobaudes Flavius\""@fr,
@@ -1377,6 +1468,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a146> a crm:E39_Actor;
   lila:endDate "0554-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0500-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0128:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Fulgentius, Fabius Planciades";
   skos:altLabel "\"Fabius Planciades Fulgentius Afer\""@la;
@@ -1384,6 +1476,7 @@ lilaAuthors:Gazetteer a void:Dataset;
   skos:prefLabel "Fulgentius, Fabius Planciades" .
 
 <http://lila-erc.eu/data/authors/id/a147> a crm:E39_Actor;
+  dct:identifier "urn:cite:latinLit:phi2331:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Scriptores historiae Augustae";
   skos:altLabel "\"Scriptores historiae Augustae, Julius Capitolinus, Flavius Vopiscus, Aelius Lampridius , Aelius Spartianus, Pollio Trebellius, Gallicanus Valcacius\""@la;
@@ -1404,6 +1497,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a149> a crm:E39_Actor;
   lila:endDate "0200-01-01T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0101-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi1257:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Granius Licinianus";
   skos:altLabel "\"Granius Licinianus ca. 2. Jh.\""@de, "\"Granius Licinianus\""@fr,
@@ -1558,6 +1652,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a172> a crm:E39_Actor;
   lila:endDate "0113-12-31T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0061-01-01T00:00:00.000Z"^^xsd:dateTime, "0062-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:phi1318:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Pliny, the Younger";
   skos:altLabel "\"C. Plinius Caecilius Secundus\""@la, "\"Gaius Plinius Caecilius Secundus\""@mul,
@@ -1569,6 +1664,7 @@ lilaAuthors:Gazetteer a void:Dataset;
 <http://lila-erc.eu/data/authors/id/a173> a crm:E39_Actor;
   lila:endDate "0419-12-31T00:00:00.000Z"^^xsd:dateTime, "0420-09-20T00:00:00.000Z"^^xsd:dateTime;
   lila:startDate "0345-01-01T00:00:00.000Z"^^xsd:dateTime, "0347-01-01T00:00:00.000Z"^^xsd:dateTime;
+  dct:identifier "urn:cts:latinLit:stoa0162:";
   dct:isPartOf lilaAuthors:Gazetteer;
   rdfs:label "Jerome, Saint, 419 or 420";
   skos:altLabel "\"Eusebius Sophronius Hieronymus\""@la, "\"Hieronymus <santo>\""@it,
